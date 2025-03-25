@@ -1,7 +1,4 @@
-const fs = require('fs');
-const path = require('path');
-
-// Import all allergy data from the data folder
+// Import all allergy data
 const environmentalAllergies = require('./data/environmental-allergies.json');
 const foodAllergies = require('./data/food-allergies.json');
 const insectAllergies = require('./data/insect-allergies.json');
