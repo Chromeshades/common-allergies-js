@@ -1,6 +1,6 @@
 {
   "name": "common-allergies-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An NPM package to import common allergies in a JavaScript application",
   "main": "index.js",
   "scripts": {
