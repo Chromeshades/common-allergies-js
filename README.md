@@ -1,7 +1,5 @@
 # Common Allergies JS
 A comprehensive JavaScript library providing structured data on common allergies across multiple categories, with over 200 allergies documented in detail.
-[![npm version](https://img.shields.io/npm/v/common-allergies-js.svg)](https://www.npmjs.com/package/common-allergies-js)
-[![License](https://img.shields.io/npm/l/common-allergies-js.svg)](https://github.com/yourusername/common-allergies-js/blob/main/LICENSE)
 
 ## Installation
 ```bash
