@@ -1,0 +1,30 @@
+{
+  "name": "common-allergies-js",
+  "version": "1.0.0",
+  "description": "An NPM package to import common allergies in a JavaScript application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage --coverageReporters='text-summary' --coverageReporters='lcov'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chromeshades/common-allergies-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "npm",
+    "allergies"
+  ],
+  "author": "Jason Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chromeshades/common-allergies-js/issues"
+  },
+  "homepage": "https://github.com/Chromeshades/common-allergies-js#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.8.2"
+  }
+}

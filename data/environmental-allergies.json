@@ -1,0 +1,1762 @@
+[
+  {
+    "id": "pollen-003",
+    "name": "Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy or watery eyes",
+      "Nasal congestion",
+      "Sinus pressure"
+    ],
+    "crossReactivity": ["Some fruits and vegetables (oral allergy syndrome)"],
+    "prevalence": {
+      "general": "10-30% of population"
+    },
+    "seasonality": {
+      "tree": "Early spring",
+      "grass": "Late spring to early summer",
+      "weed": "Late summer to fall"
+    },
+    "commonSources": [
+      "Trees (oak, birch, cedar)",
+      "Grasses (timothy, bermuda)",
+      "Weeds (ragweed, mugwort)"
+    ],
+    "medicalName": "Pollinosis or Hay fever",
+    "testingMethods": ["Skin prick test", "Blood test", "Nasal provocation test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "dustmites-004",
+    "name": "Dust Mites",
+    "type": "Environmental",
+    "category": "Indoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy, red or watery eyes",
+      "Nasal congestion",
+      "Cough",
+      "Postnasal drip",
+      "Facial pressure and pain"
+    ],
+    "crossReactivity": ["Sometimes shellfish (due to tropomyosin protein)"],
+    "prevalence": {
+      "general": "10% of population",
+      "asthmaPatients": "Up to 90%"
+    },
+    "commonSources": [
+      "Bedding",
+      "Upholstered furniture",
+      "Carpeting",
+      "Stuffed toys",
+      "Mattresses"
+    ],
+    "peakSeasons": "Year-round, worse in humid conditions",
+    "medicalName": "Dermatophagoides pteronyssinus/farinae allergy",
+    "testingMethods": ["Skin prick test", "Blood test for specific IgE"],
+    "treatment": "Allergen avoidance, HEPA filters, medications, immunotherapy"
+  },
+  {
+    "id": "pet-006",
+    "name": "Pet Dander",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny or stuffy nose",
+      "Facial pain (from nasal congestion)",
+      "Coughing, chest tightness, shortness of breath",
+      "Watery, red or itchy eyes",
+      "Skin rash or hives"
+    ],
+    "crossReactivity": ["Different animal species in some cases"],
+    "prevalence": {
+      "general": "10-20% of population"
+    },
+    "commonSources": [
+      "Cats",
+      "Dogs",
+      "Rodents",
+      "Birds",
+      "Horses"
+    ],
+    "allergenProteins": {
+      "cats": "Fel d 1",
+      "dogs": "Can f 1"
+    },
+    "medicalName": "Animal dander allergy",
+    "testingMethods": ["Skin prick test", "Blood test for specific IgE"],
+    "treatment": "Avoidance, HEPA filters, medications, immunotherapy"
+  },
+  {
+    "id": "mold-016",
+    "name": "Mold Spores",
+    "type": "Environmental",
+    "category": "Indoor/Outdoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny or stuffy nose",
+      "Cough",
+      "Wheezing",
+      "Itchy eyes, nose, and throat",
+      "Skin rash"
+    ],
+    "crossReactivity": ["Sometimes foods like aged cheese, mushrooms, fermented beverages"],
+    "prevalence": {
+      "general": "Common, exact prevalence varies by location"
+    },
+    "commonSources": [
+      "Damp areas (bathrooms, basements)",
+      "Outdoor vegetation",
+      "Decaying leaves",
+      "Old books and papers"
+    ],
+    "peakSeasons": "Year-round, worse in humid conditions or during rainy seasons",
+    "medicalName": "Mold allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, dehumidifiers, medications"
+  },
+  {
+    "id": "latex-017",
+    "name": "Latex",
+    "type": "Environmental",
+    "category": "Material",
+    "commonSymptoms": [
+      "Hives",
+      "Itching",
+      "Runny nose",
+      "Watery eyes",
+      "Wheezing",
+      "Anaphylaxis (in severe cases)"
+    ],
+    "crossReactivity": ["Certain fruits and vegetables (avocado, banana, kiwi, chestnut, papaya, tomato, potato, bell pepper, celery)"],
+    "prevalence": {
+      "healthcareworkers": "Higher prevalence",
+      "general": "Around 1%"
+    },
+    "commonSources": [
+      "Gloves",
+      "Balloons",
+      "Condoms",
+      "Elastic bands",
+      "Some medical equipment"
+    ],
+    "medicalName": "Latex allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance of latex products, epinephrine for severe reactions"
+  },
+  {
+    "id": "cockroaches-018",
+    "name": "Cockroach Droppings and Body Parts",
+    "type": "Environmental",
+    "category": "Indoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes",
+      "Coughing",
+      "Wheezing",
+      "Shortness of breath"
+    ],
+    "crossReactivity": ["Sometimes shellfish (due to tropomyosin protein)"],
+    "prevalence": {
+      "urbanAreas": "Higher prevalence, especially in low-income communities"
+    },
+    "commonSources": [
+      "Kitchens",
+      "Bathrooms",
+      "Areas where food is stored or prepared"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Cockroach allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Pest control, thorough cleaning, medications"
+  },
+  {
+    "id": "mouse-019",
+    "name": "Mouse Dander and Urine",
+    "type": "Environmental",
+    "category": "Indoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes",
+      "Coughing",
+      "Wheezing"
+    ],
+    "crossReactivity": ["Other rodents"],
+    "prevalence": {
+      "urbanAreas": "Higher prevalence"
+    },
+    "commonSources": [
+      "Homes with rodent infestations",
+      "Laboratories using mice"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Mouse allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Pest control, thorough cleaning, medications"
+  },
+  {
+    "id": "rat-020",
+    "name": "Rat Dander and Urine",
+    "type": "Environmental",
+    "category": "Indoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes",
+      "Coughing",
+      "Wheezing"
+    ],
+    "crossReactivity": ["Other rodents"],
+    "prevalence": {
+      "urbanAreas": "Higher prevalence"
+    },
+    "commonSources": [
+      "Homes with rodent infestations",
+      "Laboratories using rats"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Rat allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Pest control, thorough cleaning, medications"
+  },
+  {
+    "id": "cat-saliva-021",
+    "name": "Cat Saliva (Dried)",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny or stuffy nose",
+      "Coughing",
+      "Wheezing",
+      "Itchy eyes",
+      "Skin rash"
+    ],
+    "crossReactivity": ["Other cats"],
+    "prevalence": {
+      "general": "Significant portion of pet allergies"
+    },
+    "commonSources": [
+      "Cat fur",
+      "Cat dander",
+      "Surfaces where cats have licked"
+    ],
+    "medicalName": "Felis domesticus saliva allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, HEPA filters, medications, immunotherapy"
+  },
+  {
+    "id": "dog-saliva-022",
+    "name": "Dog Saliva (Dried)",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny or stuffy nose",
+      "Coughing",
+      "Wheezing",
+      "Itchy eyes",
+      "Skin rash"
+    ],
+    "crossReactivity": ["Other dogs"],
+    "prevalence": {
+      "general": "Significant portion of pet allergies"
+    },
+    "commonSources": [
+      "Dog fur",
+      "Dog dander",
+      "Surfaces where dogs have licked"
+    ],
+    "medicalName": "Canis familiaris saliva allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, HEPA filters, medications, immunotherapy"
+  },
+  {
+    "id": "bird-feathers-023",
+    "name": "Bird Feathers and Droppings",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Coughing",
+      "Wheezing",
+      "Shortness of breath"
+    ],
+    "crossReactivity": ["Other birds"],
+    "prevalence": {
+      "birdOwners": "Higher prevalence"
+    },
+    "commonSources": [
+      "Pet birds",
+      "Pillows and comforters filled with feathers",
+      "Areas with wild bird populations"
+    ],
+    "medicalName": "Avian protein allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, HEPA filters, medications"
+  },
+  {
+    "id": "horse-dander-024",
+    "name": "Horse Dander",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Coughing",
+      "Wheezing",
+      "Hives"
+    ],
+    "crossReactivity": ["Other equines"],
+    "prevalence": {
+      "individuals working with horses": "Higher prevalence"
+    },
+    "commonSources": [
+      "Horses",
+      "Stables",
+      "Riding equipment"
+    ],
+    "medicalName": "Equine dander allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "rabbit-dander-025",
+    "name": "Rabbit Dander",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes",
+      "Skin rash"
+    ],
+    "crossReactivity": ["Other lagomorphs"],
+    "prevalence": {
+      "rabbitOwners": "Higher prevalence"
+    },
+    "commonSources": [
+      "Pet rabbits",
+      "Rabbit fur products"
+    ],
+    "medicalName": "Rabbit epithelium allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "grass-pollen-026",
+    "name": "Specific Grass Pollens (e.g., Timothy, Bermuda)",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes",
+      "Nasal congestion"
+    ],
+    "crossReactivity": ["Other grasses, some fruits and vegetables"],
+    "prevalence": {
+      "general": "Common during grass pollen season"
+    },
+    "seasonality": {
+      "timothy": "Late spring to early summer",
+      "bermuda": "Summer"
+    },
+    "commonSources": [
+      "Lawns",
+      "Fields",
+      "Parks"
+    ],
+    "medicalName": "Specific grass pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "tree-pollen-027",
+    "name": "Specific Tree Pollens (e.g., Oak, Birch, Cedar)",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes",
+      "Nasal congestion"
+    ],
+    "crossReactivity": ["Some fruits and nuts (birch pollen allergy)"],
+    "prevalence": {
+      "general": "Common during tree pollen season"
+    },
+    "seasonality": {
+      "oak": "Spring",
+      "birch": "Early spring",
+      "cedar": "Winter/Early spring"
+    },
+    "commonSources": [
+      "Various tree species"
+    ],
+    "medicalName": "Specific tree pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "weed-pollen-028",
+    "name": "Specific Weed Pollens (e.g., Ragweed, Mugwort)",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes",
+      "Nasal congestion"
+    ],
+    "crossReactivity": ["Banana, melon, zucchini (ragweed)"],
+    "prevalence": {
+      "general": "Common during weed pollen season"
+    },
+    "seasonality": {
+      "ragweed": "Late summer to fall",
+      "mugwort": "Summer to early fall"
+    },
+    "commonSources": [
+      "Fields",
+      "Roadsides",
+      "Vacant lots"
+    ],
+    "medicalName": "Specific weed pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "alternaria-mold-029",
+    "name": "Alternaria Mold Spores",
+    "type": "Environmental",
+    "category": "Indoor/Outdoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Cough",
+      "Wheezing",
+      "Asthma exacerbation"
+    ],
+    "crossReactivity": ["Other molds"],
+    "prevalence": {
+      "asthmatics": "Common trigger"
+    },
+    "commonSources": [
+      "Outdoor air, especially during warm, dry periods",
+      "Indoor damp areas"
+    ],
+    "peakSeasons": "Summer and fall",
+    "medicalName": "Alternaria allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "aspergillus-mold-030",
+    "name": "Aspergillus Mold Spores",
+    "type": "Environmental",
+    "category": "Indoor/Outdoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Cough",
+      "Wheezing",
+      "Allergic bronchopulmonary aspergillosis (ABPA) in some individuals"
+    ],
+    "crossReactivity": ["Other molds"],
+    "prevalence": {
+      "general": "Common, but severe reactions are less frequent"
+    },
+    "commonSources": [
+      "Soil, decaying vegetation, dust",
+      "Indoor damp areas"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Aspergillus allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "cladosporium-mold-031",
+    "name": "Cladosporium Mold Spores",
+    "type": "Environmental",
+    "category": "Indoor/Outdoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes",
+      "Asthma symptoms"
+    ],
+    "crossReactivity": ["Other molds"],
+    "prevalence": {
+      "general": "Common outdoor mold"
+    },
+    "commonSources": [
+      "Outdoor air, decaying plant material",
+      "Indoor damp areas"
+    ],
+    "peakSeasons": "Summer and fall",
+    "medicalName": "Cladosporium allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "penicillium-mold-032",
+    "name": "Penicillium Mold Spores",
+    "type": "Environmental",
+    "category": "Indoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Cough",
+      "Wheezing",
+      "Skin rash"
+    ],
+    "crossReactivity": ["Other molds"],
+    "prevalence": {
+      "general": "Common indoor mold"
+    },
+    "commonSources": [
+      "Damp areas, old food, dust"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Penicillium allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "ragweed-pollen-033",
+    "name": "Specific Ragweed Species Pollen (e.g., Ambrosia artemisiifolia)",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": [
+      "Intense sneezing",
+      "Runny and itchy nose",
+      "Watery and itchy eyes"
+    ],
+    "crossReactivity": ["Banana, melon, zucchini, chamomile tea"],
+    "prevalence": {
+      "general": "Very common in late summer and fall in many regions"
+    },
+    "seasonality": {
+      "general": "Late summer to fall"
+    },
+    "commonSources": [
+      "Ragweed plants"
+    ],
+    "medicalName": "Specific ragweed allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "mugwort-pollen-034",
+    "name": "Mugwort Pollen (Artemisia vulgaris)",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes",
+      "Asthma symptoms"
+    ],
+    "crossReactivity": ["Celery, carrot, spices"],
+    "prevalence": {
+      "general": "Common in late summer and fall"
+    },
+    "seasonality": {
+      "general": "Summer to early fall"
+    },
+    "commonSources": [
+      "Mugwort plants"
+    ],
+    "medicalName": "Mugwort allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "dust-035",
+    "name": "General House Dust",
+    "type": "Environmental",
+    "category": "Indoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Nasal congestion",
+      "Cough"
+    ],
+    "crossReactivity": ["Varies depending on dust composition"],
+    "prevalence": {
+      "general": "Very common"
+    },
+    "commonSources": [
+      "Mixture of dust mites, pet dander, mold spores, pollen, and other particles"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "House dust allergy",
+    "testingMethods": ["Skin prick test", "Blood test (targeting specific components)"],
+    "treatment": "Avoidance measures, medications"
+  },
+  {
+    "id": "tobacco-smoke-036",
+    "name": "Tobacco Smoke (Secondhand)",
+    "type": "Environmental",
+    "category": "Irritant/Allergen",
+    "commonSymptoms": [
+      "Coughing",
+      "Wheezing",
+      "Shortness of breath",
+      "Eye irritation",
+      "Sore throat"
+    ],
+    "crossReactivity": ["None (irritant, but can exacerbate allergies)"],
+    "prevalence": {
+      "exposedIndividuals": "Significant portion of the population"
+    },
+    "commonSources": [
+      "Cigarette, cigar, and pipe smoke"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Secondhand smoke sensitivity/irritation",
+    "testingMethods": ["None specific for allergy"],
+    "treatment": "Avoidance of smoke"
+  },
+  {
+    "id": "air-pollution-037",
+    "name": "Outdoor Air Pollutants (e.g., Smog, Ozone)",
+    "type": "Environmental",
+    "category": "Irritant",
+    "commonSymptoms": [
+      "Coughing",
+      "Wheezing",
+      "Shortness of breath",
+      "Throat irritation"
+    ],
+    "crossReactivity": ["None (irritant, but can worsen allergies)"],
+    "prevalence": {
+      "urbanAreas": "Higher prevalence"
+    },
+    "commonSources": [
+      "Vehicle emissions, industrial pollution"
+    ],
+    "peakSeasons": "Varies by location and season",
+    "medicalName": "Air pollution sensitivity/irritation",
+    "testingMethods": ["None specific for allergy"],
+    "treatment": "Avoidance during high pollution days, air purifiers"
+  },
+  {
+    "id": "perfumes-038",
+    "name": "Perfumes and Fragrances",
+    "type": "Environmental",
+    "category": "Chemical Irritant/Allergen",
+    "commonSymptoms": [
+      "Headaches",
+      "Nausea",
+      "Dizziness",
+      "Respiratory irritation",
+      "Skin rash"
+    ],
+    "crossReactivity": ["Other fragrances, some chemicals"],
+    "prevalence": {
+      "general": "Significant portion of the population reports sensitivity"
+    },
+    "commonSources": [
+      "Perfumes, colognes, scented products"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Fragrance sensitivity/allergy",
+    "testingMethods": ["Patch test for contact dermatitis"],
+    "treatment": "Avoidance of scented products"
+  },
+  {
+    "id": "cleaning-products-039",
+    "name": "Household Cleaning Products",
+    "type": "Environmental",
+    "category": "Chemical Irritant",
+    "commonSymptoms": [
+      "Skin irritation",
+      "Respiratory irritation",
+      "Headaches"
+    ],
+    "crossReactivity": ["Other chemicals"],
+    "prevalence": {
+      "general": "Common sensitivity"
+    },
+    "commonSources": [
+      "Bleach, ammonia, detergents, air fresheners"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Chemical sensitivity/irritation",
+    "testingMethods": ["None specific for allergy"],
+    "treatment": "Avoidance, use of milder products"
+  },
+  {
+    "id": "cosmetics-040",
+    "name": "Cosmetics and Personal Care Products",
+    "type": "Environmental",
+    "category": "Chemical Allergen",
+    "commonSymptoms": [
+      "Skin rash (contact dermatitis)",
+      "Itching",
+      "Swelling"
+    ],
+    "crossReactivity": ["Specific chemicals in products"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": [
+      "Makeup, lotions, shampoos, soaps"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Contact dermatitis due to cosmetics",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of specific products"
+  },
+  {
+    "id": "metals-041",
+    "name": "Metals (e.g., Nickel)",
+    "type": "Environmental",
+    "category": "Material Allergen",
+    "commonSymptoms": [
+      "Skin rash (contact dermatitis)",
+      "Itching",
+      "Blisters"
+    ],
+    "crossReactivity": ["Other metals in some cases"],
+    "prevalence": {
+      "general": "Common, especially nickel"
+    },
+    "commonSources": [
+      "Jewelry, belt buckles, snaps on clothing"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Contact dermatitis due to metal allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of contact with the metal"
+  },
+  {
+    "id": "fragrances-042",
+    "name": "Specific Fragrance Components (e.g., Balsam of Peru)",
+    "type": "Environmental",
+    "category": "Chemical Allergen",
+    "commonSymptoms": [
+      "Skin rash (contact dermatitis)",
+      "Itching"
+    ],
+    "crossReactivity": ["Related fragrance components, some foods"],
+    "prevalence": {
+      "general": "Relatively common"
+    },
+    "commonSources": [
+      "Perfumes, cosmetics, scented products"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Contact dermatitis due to specific fragrance allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of products containing the specific fragrance"
+  },
+  {
+    "id": "preservatives-043",
+    "name": "Preservatives (e.g., Formaldehyde)",
+    "type": "Environmental",
+    "category": "Chemical Allergen",
+    "commonSymptoms": [
+      "Skin rash (contact dermatitis)",
+      "Respiratory irritation"
+    ],
+    "crossReactivity": ["Related preservatives"],
+    "prevalence": {
+      "general": "Relatively common"
+    },
+    "commonSources": [
+      "Cosmetics, lotions, some fabrics"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Contact dermatitis due to preservative allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of products containing the specific preservative"
+  },
+  {
+    "id": "dyes-044",
+    "name": "Dyes (e.g., PPD in hair dye)",
+    "type": "Environmental",
+    "category": "Chemical Allergen",
+    "commonSymptoms": [
+      "Skin rash (contact dermatitis)",
+      "Itching",
+      "Swelling"
+    ],
+    "crossReactivity": ["Related dyes"],
+    "prevalence": {
+      "hairdyeUsers": "Higher prevalence"
+    },
+    "commonSources": [
+      "Hair dye, clothing dyes"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Contact dermatitis due to dye allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of products containing the specific dye"
+  },
+  {
+    "id": "dust-mites-feces-045",
+    "name": "Proteins in Dust Mite Feces",
+    "type": "Environmental",
+    "category": "Indoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Asthma symptoms"
+    ],
+    "crossReactivity": ["Shellfish"],
+    "prevalence": {
+      "general": "High in areas with dust mites"
+    },
+    "commonSources": [
+      "Bedding, carpets, upholstered furniture"
+    ],
+    "peakSeasons": "Year-round, worse in humid conditions",
+    "medicalName": "Dust mite allergen exposure",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "animal-urine-proteins-046",
+    "name": "Proteins in Animal Urine (e.g., Cats)",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Asthma symptoms"
+    ],
+    "crossReactivity": ["Other animals"],
+    "prevalence": {
+      "petOwners": "Higher prevalence"
+    },
+    "commonSources": [
+      "Litter boxes, areas where pets urinate"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Animal urine allergen exposure",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "insect-droppings-047",
+    "name": "Droppings from Other Insects (e.g., Flies)",
+    "type": "Environmental",
+    "category": "Indoor",
+    "commonSymptoms": [
+      "Respiratory symptoms",
+      "Skin irritation"
+    ],
+    "crossReactivity": ["Other insects"],
+    "prevalence": {
+      "general": "Less common than cockroach allergy"
+    },
+    "commonSources": [
+      "Areas with insect infestations"
+    ],
+    "peakSeasons": "Warmer months",
+    "medicalName": "Insect allergen exposure",
+    "testingMethods": ["Skin prick test", "Blood test (for specific insects)"],
+    "treatment": "Pest control, cleaning"
+  },
+  {
+    "id": "feathers-048",
+    "name": "Specific Types of Feathers (e.g., Duck, Goose)",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Asthma symptoms"
+    ],
+    "crossReactivity": ["Other birds"],
+    "prevalence": {
+      "general": "Variable"
+    },
+    "commonSources": [
+      "Pillows, comforters, down jackets"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Specific feather allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance of feather-containing products"
+  },
+  {
+    "id": "animal-hair-049",
+    "name": "Specific Types of Animal Hair (e.g., Angora)",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": [
+      "Skin rash",
+      "Sneezing",
+      "Itching"
+    ],
+    "crossReactivity": ["Related animals"],
+    "prevalence": {
+      "general": "Variable"
+    },
+    "commonSources": [
+      "Clothing, blankets, pet hair"
+    ],
+    "peakSeasons": "Year-round",
+    "medicalName": "Specific animal hair allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "isocyanate-050",
+    "name": "Isocyanates (Industrial Chemical)",
+    "type": "Environmental",
+    "category": "Industrial Allergen",
+    "commonSymptoms": [
+      "Asthma",
+      "Skin rash",
+      "Eye irritation"
+    ],
+    "crossReactivity": ["Other isocyanates"],
+    "prevalence": {
+      "industrialWorkers": "Higher prevalence"
+    },
+    "commonSources": [
+      "Paints, coatings, polyurethane products"
+    ],
+    "peakSeasons": "Occupational exposure",
+    "medicalName": "Isocyanate-induced asthma/dermatitis",
+    "testingMethods": ["Specific IgE blood tests, skin tests"],
+    "treatment": "Avoidance, protective equipment"
+  },
+  {
+    "id": "epoxy-resins-051",
+    "name": "Epoxy Resins",
+    "type": "Environmental",
+    "category": "Industrial Allergen",
+    "commonSymptoms": [
+      "Contact dermatitis",
+      "Asthma"
+    ],
+    "crossReactivity": ["Related resins"],
+    "prevalence": {
+      "industrialWorkers": "Higher prevalence"
+    },
+    "commonSources": [
+      "Adhesives, coatings, electronics"
+    ],
+    "peakSeasons": "Occupational exposure",
+    "medicalName": "Epoxy resin allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance, protective equipment"
+  },
+  {
+    "id": "formaldehyde-052",
+    "name": "Formaldehyde (Gas)",
+    "type": "Environmental",
+    "category": "Chemical Irritant/Allergen",
+    "commonSymptoms": [
+      "Eye, nose, and throat irritation",
+      "Skin rash",
+      "Asthma"
+    ],
+    "crossReactivity": ["Related aldehydes"],
+    "prevalence": {
+      "general": "Sensitivity is common"
+    },
+    "commonSources": [
+      "Building materials, furniture, some fabrics"
+    ],
+    "peakSeasons": "Year-round, can be worse in new buildings or renovations",
+    "medicalName": "Formaldehyde sensitivity/allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance, ventilation"
+  },
+  {
+    "id": "wood-dust-053",
+    "name": "Wood Dust",
+    "type": "Environmental",
+    "category": "Occupational Allergen",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Asthma",
+      "Eye irritation",
+      "Skin rash"
+    ],
+    "crossReactivity": ["Different types of wood"],
+    "prevalence": {
+      "carpenters, woodworkers": "Higher prevalence"
+    },
+    "commonSources": [
+      "Sawing, sanding, and handling wood"
+    ],
+    "peakSeasons": "Occupational exposure",
+    "medicalName": "Wood dust allergy",
+    "testingMethods": ["Skin prick test", "Specific IgE blood tests"],
+    "treatment": "Avoidance, protective equipment"
+  },
+  {
+    "id": "flour-dust-054",
+    "name": "Flour Dust",
+    "type": "Environmental",
+    "category": "Occupational Allergen",
+    "commonSymptoms": [
+      "Asthma",
+      "Rhinitis",
+      "Eye irritation",
+      "Skin rash"
+    ],
+    "crossReactivity": ["Different types of flour"],
+    "prevalence": {
+      "bakers, mill workers": "Higher prevalence"
+    },
+    "commonSources": [
+      "Handling and processing flour"
+    ],
+    "peakSeasons": "Occupational exposure",
+    "medicalName": "Baker's asthma",
+    "testingMethods": ["Skin prick test", "Specific IgE blood tests"],
+    "treatment": "Avoidance, protective equipment"
+  },
+  {
+    "id": "latex-in-food-handling-055",
+    "name": "Latex Proteins Airborne from Food Handling",
+    "type": "Environmental",
+    "category": "Occupational/Material",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Asthma",
+      "Hives"
+    ],
+    "crossReactivity": ["Latex-fruit syndrome"],
+    "prevalence": {
+      "foodservice workers using latex gloves": "Higher prevalence"
+    },
+    "commonSources": [
+      "Powdered latex gloves"
+    ],
+    "peakSeasons": "Occupational exposure",
+    "medicalName": "Airborne latex allergy",
+    "testingMethods": ["Skin prick test", "Specific IgE blood tests"],
+    "treatment": "Avoidance of latex gloves, use of non-latex alternatives"
+  },
+  {
+    "id": "tobacco-pollen-056",
+    "name": "Tobacco Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes"
+    ],
+    "crossReactivity": ["Other members of the Solanaceae family (tomato, potato)"],
+    "prevalence": {
+      "tobaccoGrowingRegions": "Higher during pollination"
+    },
+    "seasonality": {
+      "general": "Summer"
+    },
+    "commonSources": [
+      "Tobacco plants"
+    ],
+    "medicalName": "Tobacco pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  },
+  {
+    "id": "cotton-dust-057",
+    "name": "Cotton Dust",
+    "type": "Environmental",
+    "category": "Occupational Allergen",
+    "commonSymptoms": [
+      "Chest tightness",
+      "Cough",
+      "Shortness of breath (Byssinosis or 'Brown Lung')"
+    ],
+    "crossReactivity": ["Raw cotton"],
+    "prevalence": {
+      "textile workers": "Higher prevalence"
+    },
+    "commonSources": [
+      "Cotton mills, textile factories"
+    ],
+    "peakSeasons": "Occupational exposure",
+    "medicalName": "Byssinosis",
+    "testingMethods": ["Pulmonary function tests", "Clinical history"],
+    "treatment": "Avoidance of cotton dust exposure"
+  },
+  {
+    "id": "animal-feed-dust-058",
+    "name": "Animal Feed Dust",
+    "type": "Environmental",
+    "category": "Occupational Allergen",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Asthma"
+    ],
+    "crossReactivity": ["Components of animal feed (grains, etc.)"],
+    "prevalence": {
+      "farmers, livestock workers": "Higher prevalence"
+    },
+    "commonSources": [
+      "Handling animal feed"
+    ],
+    "peakSeasons": "Occupational exposure",
+    "medicalName": "Farmer's lung (hypersensitivity pneumonitis)",
+    "testingMethods": ["Pulmonary function tests", "Blood tests"],
+    "treatment": "Avoidance of exposure"
+  },
+  {
+    "id": "grain-dust-059",
+    "name": "Grain Dust",
+    "type": "Environmental",
+    "category": "Occupational Allergen",
+    "commonSymptoms": [
+      "Cough",
+      "Wheezing",
+      "Shortness of breath"
+    ],
+    "crossReactivity": ["Specific grains"],
+    "prevalence": {
+      "farmers, grain handlers": "Higher prevalence"
+    },
+    "commonSources": [
+      "Handling and processing grains"
+    ],
+    "peakSeasons": "Harvest season, occupational exposure",
+    "medicalName": "Grain dust allergy/hypersensitivity",
+    "testingMethods": ["Pulmonary function tests", "Skin prick tests"],
+    "treatment": "Avoidance of exposure"
+  },
+  {
+    "id": "sawdust-060",
+    "name": "Specific Types of Sawdust (e.g., Cedar)",
+    "type": "Environmental",
+    "category": "Occupational Allergen",
+    "commonSymptoms": [
+      "Asthma",
+      "Rhinitis",
+      "Eye irritation"
+    ],
+    "crossReactivity": ["Related wood species"],
+    "prevalence": {
+      "woodworkers": "Higher prevalence"
+    },
+    "commonSources": [
+      "Working with specific types of wood"
+    ],
+    "peakSeasons": "Occupational exposure",
+    "medicalName": "Specific wood dust allergy",
+    "testingMethods": ["Skin prick test", "Specific IgE blood tests"],
+    "treatment": "Avoidance, protective equipment"
+  },
+  {
+    "id": "grass-cutting-allergens-061",
+    "name": "Airborne Grass Allergens Released During Cutting",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Itchy eyes"
+    ],
+    "crossReactivity": ["Other grasses"],
+    "prevalence": {
+      "grassPollenAllergicIndividuals": "Higher during and after mowing"
+    },
+    "seasonality": {
+      "general": "Grass pollen season"
+    },
+    "commonSources": [
+      "Mowing lawns"
+    ],
+    "medicalName": "Exacerbation of grass pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance during mowing, medications"
+  },
+  {
+    "id": "leaf-mold-062",
+    "name": "Mold Spores from Decaying Leaves",
+    "type": "Environmental",
+    "category": "Outdoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Cough",
+      "Wheezing"
+    ],
+    "crossReactivity": ["Other molds"],
+    "prevalence": {
+      "general": "Higher in fall"
+    },
+    "seasonality": {
+      "general": "Fall"
+    },
+    "commonSources": [
+      "Piles of decaying leaves"
+    ],
+    "medicalName": "Leaf mold allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "compost-mold-063",
+    "name": "Mold Spores in Compost",
+    "type": "Environmental",
+    "category": "Outdoor",
+    "commonSymptoms": [
+      "Respiratory symptoms",
+      "Skin irritation"
+    ],
+    "crossReactivity": ["Other molds"],
+    "prevalence": {
+      "gardeners": "Higher prevalence"
+    },
+    "seasonality": {
+      "general": "Warmer months"
+    },
+    "commonSources": [
+      "Compost piles"
+    ],
+    "medicalName": "Compost mold allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, protective measures"
+  },
+  {
+    "id": "mushroom-spores-064",
+    "name": "Mushroom Spores (Outdoor)",
+    "type": "Environmental",
+    "category": "Outdoor",
+    "commonSymptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Asthma"
+    ],
+    "crossReactivity": ["Other fungi"],
+    "prevalence": {
+      "general": "Higher in damp environments"
+    },
+    "seasonality": {
+      "general": "Late summer and fall"
+    },
+    "commonSources": [
+      "Damp forests, lawns"
+    ],
+    "medicalName": "Mushroom spore allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "lichen-065",
+    "name": "Lichen Spores",
+    "type": "Environmental",
+    "category": "Outdoor",
+    "commonSymptoms": [
+      "Respiratory symptoms"
+    ],
+    "crossReactivity": ["Other fungi"],
+    "prevalence": {"general": "Very rare"},
+    "seasonality": {"general": "Varies by species"},
+    "commonSources": ["Rocks, trees"],
+    "medicalName": "Lichen allergy",
+    "testingMethods": ["Skin prick test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "fern-spores-066",
+    "name": "Fern Spores",
+    "type": "Environmental",
+    "category": "Outdoor",
+    "commonSymptoms": ["Respiratory symptoms"],
+    "crossReactivity": ["Other ferns"],
+    "prevalence": {"general": "Very rare"},
+    "seasonality": {"general": "Varies by species"},
+    "commonSources": ["Fern plants"],
+    "medicalName": "Fern spore allergy",
+    "testingMethods": ["Skin prick test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "moss-spores-067",
+    "name": "Moss Spores",
+    "type": "Environmental",
+    "category": "Outdoor",
+    "commonSymptoms": ["Respiratory symptoms"],
+    "crossReactivity": ["Other mosses"],
+    "prevalence": {"general": "Very rare"},
+    "seasonality": {"general": "Varies by species"},
+    "commonSources": ["Damp, shaded areas"],
+    "medicalName": "Moss spore allergy",
+    "testingMethods": ["Skin prick test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "algae-spores-068",
+    "name": "Algae Spores (Airborne)",
+    "type": "Environmental",
+    "category": "Outdoor",
+    "commonSymptoms": ["Respiratory symptoms"],
+    "crossReactivity": ["Other algae"],
+    "prevalence": {"general": "Very rare"},
+    "seasonality": {"general": "Varies by species, often humid conditions"},
+    "commonSources": ["Ponds, damp surfaces"],
+    "medicalName": "Algae spore allergy",
+    "testingMethods": ["Skin prick test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "spider-mites-069",
+    "name": "Spider Mites (Indoor Plants)",
+    "type": "Environmental",
+    "category": "Indoor",
+    "commonSymptoms": ["Skin rash", "Respiratory symptoms"],
+    "crossReactivity": ["Dust mites (possibly)"],
+    "prevalence": {"houseplantOwners": "Potential exposure"},
+    "seasonality": {"general": "Year-round indoors"},
+    "commonSources": ["Infested houseplants"],
+    "medicalName": "Spider mite allergy",
+    "testingMethods": ["Skin prick test (extracts may not be standard)"],
+    "treatment": "Avoidance, pest control for plants"
+  },
+  {
+    "id": "insect-parts-070",
+    "name": "Body Parts of Dead Insects (e.g., Carpet Beetles)",
+    "type": "Environmental",
+    "category": "Indoor",
+    "commonSymptoms": ["Skin irritation", "Respiratory symptoms"],
+    "crossReactivity": ["Other insects"],
+    "prevalence": {"general": "Less common"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Dust, carpets, closets"],
+    "medicalName": "Insect debris allergy",
+    "testingMethods": ["Skin prick test (extracts may not be standard)"],
+    "treatment": "Thorough cleaning"
+  },
+  {
+    "id": "kapok-071",
+    "name": "Kapok Fiber",
+    "type": "Environmental",
+    "category": "Material",
+    "commonSymptoms": ["Respiratory symptoms", "Skin irritation"],
+    "crossReactivity": ["Latex (sometimes)"],
+    "prevalence": {"general": "Rare"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Old pillows, mattresses"],
+    "medicalName": "Kapok allergy",
+    "testingMethods": ["Skin prick test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "down-feathers-072",
+    "name": "Down Feathers",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": ["Respiratory symptoms"],
+    "crossReactivity": ["Other bird feathers"],
+    "prevalence": {"general": "Variable"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Pillows, comforters, down jackets"],
+    "medicalName": "Down feather allergy",
+    "testingMethods": ["Skin prick test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "jute-073",
+    "name": "Jute Fiber",
+    "type": "Environmental",
+    "category": "Material",
+    "commonSymptoms": ["Skin irritation", "Respiratory symptoms"],
+    "crossReactivity": ["Other plant fibers"],
+    "prevalence": {"general": "Rare"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Rugs, burlap"],
+    "medicalName": "Jute allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "hemp-074",
+    "name": "Hemp Fiber",
+    "type": "Environmental",
+    "category": "Material",
+    "commonSymptoms": ["Skin irritation", "Respiratory symptoms"],
+    "crossReactivity": ["Other plant fibers"],
+    "prevalence": {"general": "Rare"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Clothing, textiles"],
+    "medicalName": "Hemp allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "flax-075",
+    "name": "Flax Fiber (Linen)",
+    "type": "Environmental",
+    "category": "Material",
+    "commonSymptoms": ["Skin irritation", "Respiratory symptoms"],
+    "crossReactivity": ["Other plant fibers"],
+    "prevalence": {"general": "Rare"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Linen clothing, bedding"],
+    "medicalName": "Flax allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "rayon-076",
+    "name": "Rayon (Viscose) Fiber",
+    "type": "Environmental",
+    "category": "Material",
+    "commonSymptoms": ["Skin irritation"],
+    "crossReactivity": ["Other synthetic fibers (rarely)"],
+    "prevalence": {"general": "Very rare"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Clothing, textiles"],
+    "medicalName": "Rayon allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "nylon-077",
+    "name": "Nylon Fiber",
+    "type": "Environmental",
+    "category": "Material",
+    "commonSymptoms": ["Skin irritation"],
+    "crossReactivity": ["Other synthetic fibers (rarely)"],
+    "prevalence": {"general": "Very rare"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Clothing, carpets"],
+    "medicalName": "Nylon allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "polyester-078",
+    "name": "Polyester Fiber",
+    "type": "Environmental",
+    "category": "Material",
+    "commonSymptoms": ["Skin irritation"],
+    "crossReactivity": ["Other synthetic fibers (rarely)"],
+    "prevalence": {"general": "Very rare"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Clothing, bedding"],
+    "medicalName": "Polyester allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "acrylic-079",
+    "name": "Acrylic Fiber",
+    "type": "Environmental",
+    "category": "Material",
+    "commonSymptoms": ["Skin irritation"],
+    "crossReactivity": ["Other synthetic fibers (rarely)"],
+    "prevalence": {"general": "Very rare"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Clothing, blankets"],
+    "medicalName": "Acrylic allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "wool-080",
+    "name": "Wool (Lanolin Allergy)",
+    "type": "Environmental",
+    "category": "Animal Product",
+    "commonSymptoms": ["Skin rash", "Itching"],
+    "crossReactivity": ["Lanolin-containing products"],
+    "prevalence": {"general": "Relatively uncommon"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Wool clothing, blankets"],
+    "medicalName": "Lanolin allergy (often associated with wool)",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of wool and lanolin"
+  },
+  {
+    "id": "silk-081",
+    "name": "Silk",
+    "type": "Environmental",
+    "category": "Animal Product",
+    "commonSymptoms": ["Skin rash", "Itching"],
+    "crossReactivity": ["Other insect products (rarely)"],
+    "prevalence": {"general": "Very rare"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Silk clothing, bedding"],
+    "medicalName": "Silk allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "dander-from-less-common-pets-082",
+    "name": "Dander from Less Common Pets (e.g., Ferrets, Guinea Pigs)",
+    "type": "Environmental",
+    "category": "Animal",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Skin rash"],
+    "crossReactivity": ["Other rodents, related species"],
+    "prevalence": {"owners of these pets": "Higher prevalence"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Pet dander, bedding"],
+    "medicalName": "Specific pet dander allergy",
+    "testingMethods": ["Skin prick test", "Blood test (if specific allergens available)"],
+    "treatment": "Avoidance, medications"
+  },
+  {
+    "id": "beeswax-083",
+    "name": "Beeswax",
+    "type": "Environmental",
+    "category": "Animal Product",
+    "commonSymptoms": ["Skin rash"],
+    "crossReactivity": ["Propolis, bee venom (sometimes)"],
+    "prevalence": {"general": "Rare"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Candles, cosmetics"],
+    "medicalName": "Beeswax allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "propolis-084",
+    "name": "Propolis (Bee Glue)",
+    "type": "Environmental",
+    "category": "Animal Product",
+    "commonSymptoms": ["Skin rash"],
+    "crossReactivity": ["Beeswax, bee venom (sometimes)"],
+    "prevalence": {"beekeepers": "Higher prevalence"},
+    "seasonality": {"general": "Year-round"},
+    "commonSources": ["Some natural health products, cosmetics"],
+    "medicalName": "Propolis allergy",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance"
+  },
+  {
+    "id": "pine-pollen-085",
+    "name": "Pine Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Eye irritation (less potent allergen)"],
+    "crossReactivity": ["Other conifers"],
+    "prevalence": {"general": "Common during pollination, but less allergenic than other pollens"},
+    "seasonality": {"general": "Spring"},
+    "commonSources": ["Pine trees"],
+    "medicalName": "Pine pollen sensitivity",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Usually mild symptoms, may not require extensive treatment"
+  },
+  {
+    "id": "cedar-pollen-086",
+    "name": "Cedar Tree Pollen (Mountain Cedar)",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Intense sneezing", "Runny nose", "Itchy eyes"],
+    "crossReactivity": ["Other junipers and conifers"],
+    "prevalence": {"Southwestern US": "Significant allergen in winter"},
+    "seasonality": {"general": "Winter"},
+    "commonSources": ["Cedar trees (specifically Juniperus ashei)"],
+    "medicalName": "Mountain cedar allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "oak-pollen-087",
+    "name": "Oak Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Nasal congestion"],
+    "crossReactivity": ["Birch pollen (sometimes)"],
+    "prevalence": {"general": "Common in spring"},
+    "seasonality": {"general": "Spring"},
+    "commonSources": ["Oak trees"],
+    "medicalName": "Oak pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "birch-pollen-088",
+    "name": "Birch Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Itchy eyes", "Oral allergy syndrome"],
+    "crossReactivity": ["Apple, cherry, almond, carrot, celery"],
+    "prevalence": {"Northern latitudes": "Common in early spring"},
+    "seasonality": {"general": "Early spring"},
+    "commonSources": ["Birch trees"],
+    "medicalName": "Birch pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "maple-pollen-089",
+    "name": "Maple Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Nasal congestion"],
+    "crossReactivity": ["Other maple species (rarely)"],
+    "prevalence": {"general": "Moderate allergen in spring"},
+    "seasonality": {"general": "Spring"},
+    "commonSources": ["Maple trees"],
+    "medicalName": "Maple pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  },
+  {
+    "id": "elm-pollen-090",
+    "name": "Elm Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Itchy eyes"],
+    "crossReactivity": ["Other elm species"],
+    "prevalence": {"general": "Early spring allergen"},
+    "seasonality": {"general": "Late winter to early spring"},
+    "commonSources": ["Elm trees"],
+    "medicalName": "Elm pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  },
+  {
+    "id": "ash-pollen-091",
+    "name": "Ash Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Nasal congestion"],
+    "crossReactivity": ["Olive pollen (sometimes)"],
+    "prevalence": {"general": "Spring allergen"},
+    "seasonality": {"general": "Spring"},
+    "commonSources": ["Ash trees"],
+    "medicalName": "Ash pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  },
+  {
+    "id": "alder-pollen-092",
+    "name": "Alder Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Itchy eyes"],
+    "crossReactivity": ["Birch and hazelnut pollen"],
+    "prevalence": {"Northern latitudes": "Early spring allergen"},
+    "seasonality": {"general": "Late winter to early spring"},
+    "commonSources": ["Alder trees"],
+    "medicalName": "Alder pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  },
+  {
+    "id": "willow-pollen-093",
+    "name": "Willow Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Itchy eyes"],
+    "crossReactivity": ["Poplar pollen (sometimes)"],
+    "prevalence": {"general": "Early spring allergen"},
+    "seasonality": {"general": "Early spring"},
+    "commonSources": ["Willow trees"],
+    "medicalName": "Willow pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  },
+  {
+    "id": "poplar-pollen-094",
+    "name": "Poplar Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Nasal congestion"],
+    "crossReactivity": ["Willow pollen (sometimes)"],
+    "prevalence": {"general": "Spring allergen"},
+    "seasonality": {"general": "Spring"},
+    "commonSources": ["Poplar trees"],
+    "medicalName": "Poplar pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  },
+  {
+    "id": "sycamore-pollen-095",
+    "name": "Sycamore Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Itchy eyes"],
+    "crossReactivity": ["Plane tree pollen"],
+    "prevalence": {"general": "Spring allergen"},
+    "seasonality": {"general": "Spring"},
+    "commonSources": ["Sycamore trees"],
+    "medicalName": "Sycamore pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  },
+  {
+    "id": "plane-tree-pollen-096",
+    "name": "Plane Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Itchy eyes"],
+    "crossReactivity": ["Sycamore pollen"],
+    "prevalence": {"general": "Spring allergen"},
+    "seasonality": {"general": "Spring"},
+    "commonSources": ["Plane trees"],
+    "medicalName": "Plane tree pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  },
+  {
+    "id": "olive-pollen-097",
+    "name": "Olive Tree Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Itchy eyes", "Asthma"],
+    "crossReactivity": ["Ash pollen (sometimes)"],
+    "prevalence": {"Mediterranean regions, parts of the US": "Spring allergen"},
+    "seasonality": {"general": "Spring"},
+    "commonSources": ["Olive trees"],
+    "medicalName": "Olive pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "ragweed-species-pollen-098",
+    "name": "Other Ragweed Species Pollen (e.g., Short Ragweed)",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Itchy eyes"],
+    "crossReactivity": ["Other ragweed species"],
+    "prevalence": {"general": "Late summer/fall allergen"},
+    "seasonality": {"general": "Late summer to fall"},
+    "commonSources": ["Various ragweed species"],
+    "medicalName": "Ragweed species allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids, immunotherapy"
+  },
+  {
+    "id": "nettle-pollen-099",
+    "name": "Nettle Pollen",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Itchy eyes"],
+    "crossReactivity": ["Other weeds (rarely)"],
+    "prevalence": {"general": "Summer allergen"},
+    "seasonality": {"general": "Summer"},
+    "commonSources": ["Nettle plants"],
+    "medicalName": "Nettle pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  },
+  {
+    "id": "plantain-pollen-100",
+    "name": "Plantain Pollen (Ribwort Plantain)",
+    "type": "Environmental",
+    "category": "Airborne",
+    "commonSymptoms": ["Sneezing", "Runny nose", "Itchy eyes"],
+    "crossReactivity": ["Other weeds (rarely)"],
+    "prevalence": {"general": "Summer allergen"},
+    "seasonality": {"general": "Summer"},
+    "commonSources": ["Plantain plants"],
+    "medicalName": "Plantain pollen allergy",
+    "testingMethods": ["Skin prick test", "Blood test"],
+    "treatment": "Antihistamines, nasal steroids"
+  }
+]

@@ -1,0 +1,1549 @@
+[
+  {
+    "id": "penicillin-021",
+    "name": "Penicillin",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Itching",
+      "Swelling of the face, lips, or tongue",
+      "Difficulty breathing",
+      "Anaphylaxis"
+    ],
+    "crossReactivity": ["Other penicillin-related antibiotics (amoxicillin, ampicillin)"],
+    "prevalence": {
+      "general": "Around 10% of people report a penicillin allergy, but less than 1% are truly allergic"
+    },
+    "medicalName": "Penicillin allergy",
+    "testingMethods": ["Skin test", "Oral challenge"],
+    "treatment": "Avoidance, alternative antibiotics, desensitization in some cases"
+  },
+  {
+    "id": "aspirin-022",
+    "name": "Aspirin",
+    "type": "Medication",
+    "category": "NSAID",
+    "commonSymptoms": [
+      "Hives",
+      "Swelling of the face, lips, or tongue",
+      "Runny nose",
+      "Asthma symptoms (wheezing, shortness of breath)",
+      "Anaphylaxis"
+    ],
+    "crossReactivity": ["Other NSAIDs (ibuprofen, naproxen)"],
+    "prevalence": {
+      "adults with asthma": "Higher prevalence"
+    },
+    "medicalName": "Aspirin-exacerbated respiratory disease (AERD) or Aspirin allergy",
+    "testingMethods": ["Oral challenge"],
+    "treatment": "Avoidance, alternative pain relievers"
+  },
+  {
+    "id": "sulfa-drugs-023",
+    "name": "Sulfa Drugs",
+    "type": "Medication",
+    "category": "Antibiotic/Other",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Itching",
+      "Fever",
+      "Difficulty breathing",
+      "Anaphylaxis (rare)"
+    ],
+    "crossReactivity": ["Some other medications containing a sulfonamide group"],
+    "prevalence": {
+      "general": "Around 3% of the population"
+    },
+    "medicalName": "Sulfonamide allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "amoxicillin-024",
+    "name": "Amoxicillin",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Itching",
+      "Swelling",
+      "Difficulty breathing"
+    ],
+    "crossReactivity": ["Other penicillins and cephalosporins (in some cases)"],
+    "prevalence": {
+      "children": "Common"
+    },
+    "medicalName": "Amoxicillin allergy",
+    "testingMethods": ["Skin test", "Oral challenge"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "cephalosporins-025",
+    "name": "Cephalosporins (e.g., Cephalexin, Cefuroxime)",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Itching",
+      "Swelling",
+      "Anaphylaxis (rare)"
+    ],
+    "crossReactivity": ["Other cephalosporins, penicillins (less common)"],
+    "prevalence": {
+      "general": "Around 1-3%"
+    },
+    "medicalName": "Cephalosporin allergy",
+    "testingMethods": ["Skin test", "Oral challenge"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "trimethoprim-sulfamethoxazole-026",
+    "name": "Trimethoprim-Sulfamethoxazole (Bactrim)",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Fever",
+      "Severe skin reactions (Stevens-Johnson syndrome)"
+    ],
+    "crossReactivity": ["Other sulfa drugs"],
+    "prevalence": {
+      "general": "Relatively common"
+    },
+    "medicalName": "Trimethoprim-sulfamethoxazole allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "tetracycline-027",
+    "name": "Tetracycline",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Itching",
+      "Photosensitivity"
+    ],
+    "crossReactivity": ["Other tetracyclines"],
+    "prevalence": {
+      "general": "Less common than other antibiotics"
+    },
+    "medicalName": "Tetracycline allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "erythromycin-028",
+    "name": "Erythromycin",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Gastrointestinal upset"
+    ],
+    "crossReactivity": ["Other macrolides (azithromycin, clarithromycin) - less common"],
+    "prevalence": {
+      "general": "Relatively uncommon"
+    },
+    "medicalName": "Erythromycin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "ciprofloxacin-029",
+    "name": "Ciprofloxacin",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Itching"
+    ],
+    "crossReactivity": ["Other fluoroquinolones (levofloxacin, ofloxacin) - less common"],
+    "prevalence": {
+      "general": "Uncommon"
+    },
+    "medicalName": "Ciprofloxacin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "ibuprofen-030",
+    "name": "Ibuprofen",
+    "type": "Medication",
+    "category": "NSAID",
+    "commonSymptoms": [
+      "Hives",
+      "Swelling",
+      "Asthma symptoms"
+    ],
+    "crossReactivity": ["Other NSAIDs (aspirin, naproxen)"],
+    "prevalence": {
+      "general": "Less common than aspirin allergy"
+    },
+    "medicalName": "Ibuprofen allergy",
+    "testingMethods": ["Oral challenge"],
+    "treatment": "Avoidance, alternative pain relievers"
+  },
+  {
+    "id": "naproxen-031",
+    "name": "Naproxen",
+    "type": "Medication",
+    "category": "NSAID",
+    "commonSymptoms": [
+      "Hives",
+      "Swelling",
+      "Asthma symptoms"
+    ],
+    "crossReactivity": ["Other NSAIDs (aspirin, ibuprofen)"],
+    "prevalence": {
+      "general": "Less common than aspirin allergy"
+    },
+    "medicalName": "Naproxen allergy",
+    "testingMethods": ["Oral challenge"],
+    "treatment": "Avoidance, alternative pain relievers"
+  },
+  {
+    "id": "codeine-032",
+    "name": "Codeine",
+    "type": "Medication",
+    "category": "Opioid Analgesic",
+    "commonSymptoms": [
+      "Hives",
+      "Itching",
+      "Nausea",
+      "Constipation (not necessarily allergic)"
+    ],
+    "crossReactivity": ["Other opioids (morphine, oxycodone) - less common for true allergy"],
+    "prevalence": {
+      "general": "Reactions are often non-allergic (histamine release)"
+    },
+    "medicalName": "Codeine allergy (true allergy is rare)",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative pain relievers"
+  },
+  {
+    "id": "morphine-033",
+    "name": "Morphine",
+    "type": "Medication",
+    "category": "Opioid Analgesic",
+    "commonSymptoms": [
+      "Hives",
+      "Itching",
+      "Hypotension",
+      "Anaphylaxis (rare)"
+    ],
+    "crossReactivity": ["Other opioids (codeine, oxycodone) - less common for true allergy"],
+    "prevalence": {
+      "general": "True allergy is rare"
+    },
+    "medicalName": "Morphine allergy",
+    "testingMethods": ["Skin test (sometimes)"],
+    "treatment": "Avoidance, alternative pain relievers"
+  },
+  {
+    "id": "oxycodone-034",
+    "name": "Oxycodone",
+    "type": "Medication",
+    "category": "Opioid Analgesic",
+    "commonSymptoms": [
+      "Hives",
+      "Itching"
+    ],
+    "crossReactivity": ["Other opioids (codeine, morphine) - less common for true allergy"],
+    "prevalence": {
+      "general": "True allergy is rare"
+    },
+    "medicalName": "Oxycodone allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative pain relievers"
+  },
+  {
+    "id": "lidocaine-035",
+    "name": "Lidocaine",
+    "type": "Medication",
+    "category": "Local Anesthetic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Swelling"
+    ],
+    "crossReactivity": ["Other amide-type local anesthetics (bupivacaine, prilocaine) - rare"],
+    "prevalence": {
+      "general": "Rare; reactions are often due to preservatives or epinephrine"
+    },
+    "medicalName": "Lidocaine allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance, alternative local anesthetics"
+  },
+  {
+    "id": "procaine-036",
+    "name": "Procaine",
+    "type": "Medication",
+    "category": "Local Anesthetic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Swelling",
+      "Anaphylaxis (rare)"
+    ],
+    "crossReactivity": ["Other ester-type local anesthetics (benzocaine, tetracaine)"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Procaine allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance, alternative local anesthetics"
+  },
+  {
+    "id": "insulin-037",
+    "name": "Insulin",
+    "type": "Medication",
+    "category": "Hormone",
+    "commonSymptoms": [
+      "Skin rash at injection site",
+      "Itching",
+      "Swelling",
+      "Anaphylaxis (rare)"
+    ],
+    "crossReactivity": ["Different types of insulin (animal vs. human vs. analog)"],
+    "prevalence": {
+      "general": "Rare with modern insulin preparations"
+    },
+    "medicalName": "Insulin allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance, alternative insulin types, desensitization"
+  },
+  {
+    "id": "vaccines-038",
+    "name": "Vaccines (Specific Components like Egg Protein, Gelatin)",
+    "type": "Medication",
+    "category": "Vaccine",
+    "commonSymptoms": [
+      "Hives",
+      "Swelling",
+      "Difficulty breathing",
+      "Anaphylaxis (rare)"
+    ],
+    "crossReactivity": ["Other vaccines containing the same component"],
+    "prevalence": {
+      "general": "varies by component"
+    },
+    "medicalName": "Vaccine component allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance of specific vaccines, use of alternative formulations"
+  },
+  {
+    "id": "iodinated-contrast-media-039",
+    "name": "Iodinated Contrast Media",
+    "type": "Medication",
+    "category": "Radiographic Agent",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Swelling",
+      "Difficulty breathing",
+      "Anaphylaxis"
+    ],
+    "crossReactivity": ["Other iodinated contrast media"],
+    "prevalence": {
+      "general": "Around 1-3%"
+    },
+    "medicalName": "Iodinated contrast media allergy",
+    "testingMethods": ["Skin test (limited predictive value)"],
+    "treatment": "Avoidance, premedication with antihistamines and steroids"
+  },
+  {
+    "id": "latex-medical-devices-040",
+    "name": "Latex (in Medical Devices)",
+    "type": "Medication",
+    "category": "Medical Device Component",
+    "commonSymptoms": [
+      "Hives",
+      "Itching",
+      "Swelling",
+      "Difficulty breathing",
+      "Anaphylaxis"
+    ],
+    "crossReactivity": ["Certain fruits (avocado, banana, kiwi)"],
+    "prevalence": {
+      "healthcare workers, individuals with spina bifida": "Higher prevalence"
+    },
+    "medicalName": "Latex allergy",
+    "testingMethods": ["Skin test", "Blood test"],
+    "treatment": "Avoidance of latex-containing medical devices"
+  },
+  {
+    "id": "muscle-relaxants-041",
+    "name": "Neuromuscular Blocking Agents (e.g., Succinylcholine, Rocuronium)",
+    "type": "Medication",
+    "category": "Anesthetic Adjunct",
+    "commonSymptoms": [
+      "Hives",
+      "Swelling",
+      "Bronchospasm",
+      "Hypotension",
+      "Anaphylaxis"
+    ],
+    "crossReactivity": ["Other neuromuscular blocking agents"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Neuromuscular blocking agent allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance, alternative muscle relaxants"
+  },
+  {
+    "id": "chlorhexidine-042",
+    "name": "Chlorhexidine",
+    "type": "Medication",
+    "category": "Antiseptic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Swelling",
+      "Difficulty breathing",
+      "Anaphylaxis"
+    ],
+    "crossReactivity": ["None well-established"],
+    "prevalence": {
+      "general": "Rare, but increasing"
+    },
+    "medicalName": "Chlorhexidine allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance, alternative antiseptics"
+  },
+  {
+    "id": "protamine-043",
+    "name": "Protamine",
+    "type": "Medication",
+    "category": "Heparin Antagonist",
+    "commonSymptoms": [
+      "Hypotension",
+      "Bradycardia",
+      "Bronchospasm",
+      "Anaphylaxis"
+    ],
+    "crossReactivity": ["Fish allergy (in some cases)"],
+    "prevalence": {
+      "individuals with fish allergy or prior protamine exposure": "Higher risk"
+    },
+    "medicalName": "Protamine allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance, slow administration if necessary"
+  },
+  {
+    "id": "heparin-044",
+    "name": "Heparin",
+    "type": "Medication",
+    "category": "Anticoagulant",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Anaphylaxis (rare)"
+    ],
+    "crossReactivity": ["Low molecular weight heparins (enoxaparin, dalteparin) - possible"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Heparin allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance, alternative anticoagulants"
+  },
+  {
+    "id": "warfarin-045",
+    "name": "Warfarin",
+    "type": "Medication",
+    "category": "Anticoagulant",
+    "commonSymptoms": [
+      "Skin rash",
+      "Itching (rare)"
+    ],
+    "crossReactivity": ["None well-established"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Warfarin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative anticoagulants"
+  },
+  {
+    "id": "ACE-inhibitors-046",
+    "name": "ACE Inhibitors (e.g., Lisinopril, Enalapril)",
+    "type": "Medication",
+    "category": "Antihypertensive",
+    "commonSymptoms": [
+      "Angioedema (swelling of the face, lips, tongue)",
+      "Cough (common side effect, not always allergy)",
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other ACE inhibitors"],
+    "prevalence": {
+      "angioedema": "0.1-0.7%"
+    },
+    "medicalName": "ACE inhibitor-induced angioedema/allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antihypertensives"
+  },
+  {
+    "id": "ARBs-047",
+    "name": "Angiotensin II Receptor Blockers (ARBs) (e.g., Losartan, Valsartan)",
+    "type": "Medication",
+    "category": "Antihypertensive",
+    "commonSymptoms": [
+      "Angioedema (less common than with ACE inhibitors)",
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other ARBs"],
+    "prevalence": {
+      "angioedema": "Less frequent than with ACE inhibitors"
+    },
+    "medicalName": "ARB-induced angioedema/allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antihypertensives"
+  },
+  {
+    "id": "beta-blockers-048",
+    "name": "Beta-Blockers (e.g., Metoprolol, Atenolol)",
+    "type": "Medication",
+    "category": "Antihypertensive/Other",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives (rare)"
+    ],
+    "crossReactivity": ["Other beta-blockers"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Beta-blocker allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "statins-049",
+    "name": "Statins (e.g., Atorvastatin, Simvastatin)",
+    "type": "Medication",
+    "category": "Cholesterol-Lowering",
+    "commonSymptoms": [
+      "Skin rash",
+      "Itching (rare)"
+    ],
+    "crossReactivity": ["Other statins (variable)"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Statin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative cholesterol-lowering medications"
+  },
+  {
+    "id": "proton-pump-inhibitors-050",
+    "name": "Proton Pump Inhibitors (PPIs) (e.g., Omeprazole, Pantoprazole)",
+    "type": "Medication",
+    "category": "Gastrointestinal",
+    "commonSymptoms": [
+      "Skin rash",
+      "Itching (rare)"
+    ],
+    "crossReactivity": ["Other PPIs (variable)"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "PPI allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "antacids-051",
+    "name": "Antacids (Specific Ingredients)",
+    "type": "Medication",
+    "category": "Gastrointestinal",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives (rare)"
+    ],
+    "crossReactivity": ["Depends on the specific ingredient"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Antacid allergy (specific ingredient)",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance of specific ingredients"
+  },
+  {
+    "id": "laxatives-052",
+    "name": "Laxatives (Specific Ingredients)",
+    "type": "Medication",
+    "category": "Gastrointestinal",
+    "commonSymptoms": [
+      "Skin rash",
+      "Itching (rare)"
+    ],
+    "crossReactivity": ["Depends on the specific ingredient"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Laxative allergy (specific ingredient)",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance of specific ingredients"
+  },
+  {
+    "id": "antihistamines-053",
+    "name": "Antihistamines (e.g., Diphenhydramine, Cetirizine)",
+    "type": "Medication",
+    "category": "Allergy/Cold",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives (rare)"
+    ],
+    "crossReactivity": ["Other antihistamines (variable)"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Antihistamine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antihistamines"
+  },
+  {
+    "id": "decongestants-054",
+    "name": "Decongestants (e.g., Pseudoephedrine, Phenylephrine)",
+    "type": "Medication",
+    "category": "Allergy/Cold",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other decongestants (rare)"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Decongestant allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "cough-suppressants-055",
+    "name": "Cough Suppressants (e.g., Dextromethorphan)",
+    "type": "Medication",
+    "category": "Allergy/Cold",
+    "commonSymptoms": [
+      "Skin rash (very rare)"
+    ],
+    "crossReactivity": ["Other cough suppressants (very rare)"],
+    "prevalence": {
+      "general": "Extremely rare"
+    },
+    "medicalName": "Cough suppressant allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "antifungals-056",
+    "name": "Antifungals (e.g., Fluconazole, Ketoconazole)",
+    "type": "Medication",
+    "category": "Antifungal",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Itching"
+    ],
+    "crossReactivity": ["Other azole antifungals (variable)"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Antifungal allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antifungals"
+  },
+  {
+    "id": "antivirals-057",
+    "name": "Antivirals (e.g., Acyclovir, Oseltamivir)",
+    "type": "Medication",
+    "category": "Antiviral",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives (rare)"
+    ],
+    "crossReactivity": ["Other antivirals (variable)"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Antiviral allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antivirals"
+  },
+  {
+    "id": "antidepressants-058",
+    "name": "Antidepressants (e.g., SSRIs, SNRIs, Tricyclics)",
+    "type": "Medication",
+    "category": "Psychiatric",
+    "commonSymptoms": [
+      "Skin rash",
+      "Itching (rare)"
+    ],
+    "crossReactivity": ["Other antidepressants within the same class (variable)"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Antidepressant allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antidepressants"
+  },
+  {
+    "id": "antipsychotics-059",
+    "name": "Antipsychotics (e.g., Haloperidol, Risperidone)",
+    "type": "Medication",
+    "category": "Psychiatric",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other antipsychotics (variable)"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Antipsychotic allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antipsychotics"
+  },
+  {
+    "id": "anticonvulsants-060",
+    "name": "Anticonvulsants (e.g., Phenytoin, Carbamazepine)",
+    "type": "Medication",
+    "category": "Neurologic",
+    "commonSymptoms": [
+      "Skin rash (can be severe)",
+      "Stevens-Johnson syndrome"
+    ],
+    "crossReactivity": ["Other anticonvulsants (variable)"],
+    "prevalence": {
+      "general": "Rare, but serious"
+    },
+    "medicalName": "Anticonvulsant allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative anticonvulsants"
+  },
+  {
+    "id": "thyroid-hormone-061",
+    "name": "Thyroid Hormone (Levothyroxine)",
+    "type": "Medication",
+    "category": "Endocrine",
+    "commonSymptoms": [
+      "Skin rash (very rare)"
+    ],
+    "crossReactivity": ["Other thyroid hormone preparations (very rare)"],
+    "prevalence": {
+      "general": "Extremely rare"
+    },
+    "medicalName": "Levothyroxine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative preparations"
+  },
+  {
+    "id": "corticosteroids-062",
+    "name": "Corticosteroids (e.g., Prednisone, Hydrocortisone)",
+    "type": "Medication",
+    "category": "Anti-inflammatory",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other corticosteroids (variable)"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Corticosteroid allergy",
+    "testingMethods": ["Skin test (sometimes)"],
+    "treatment": "Avoidance, alternative anti-inflammatory medications"
+  },
+  {
+    "id": "monoclonal-antibodies-063",
+    "name": "Monoclonal Antibodies (e.g., Infliximab, Adalimumab)",
+    "type": "Medication",
+    "category": "Biologic",
+    "commonSymptoms": [
+      "Infusion reactions (rash, fever, chills)",
+      "Anaphylaxis (rare)"
+    ],
+    "crossReactivity": ["Other monoclonal antibodies (variable)"],
+    "prevalence": {
+      "general": "varies by specific drug"
+    },
+    "medicalName": "Monoclonal antibody allergy/infusion reaction",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Slowing infusion rate, premedication, alternative biologics"
+  },
+  {
+    "id": "chemotherapy-drugs-064",
+    "name": "Chemotherapy Drugs (Specific Agents)",
+    "type": "Medication",
+    "category": "Oncology",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives",
+      "Anaphylaxis"
+    ],
+    "crossReactivity": ["Other chemotherapy agents (variable)"],
+    "prevalence": {
+      "general": "varies by specific drug"
+    },
+    "medicalName": "Chemotherapy drug allergy",
+    "testingMethods": ["Skin test (sometimes)"],
+    "treatment": "Avoidance, alternative chemotherapy regimens, desensitization"
+  },
+  {
+    "id": "local-anesthetics-preservatives-065",
+    "name": "Preservatives in Local Anesthetics (e.g., Parabens)",
+    "type": "Medication",
+    "category": "Local Anesthetic Component",
+    "commonSymptoms": [
+      "Skin rash",
+      "Swelling"
+    ],
+    "crossReactivity": ["Other preservatives"],
+    "prevalence": {
+      "general": "More common than allergy to the anesthetic itself"
+    },
+    "medicalName": "Preservative allergy in local anesthetics",
+    "testingMethods": ["Skin test"],
+    "treatment": "Use of preservative-free formulations"
+  },
+  {
+    "id": "opioids-codeine-derivatives-066",
+    "name": "Opioids - Codeine Derivatives (e.g., Hydrocodone)",
+    "type": "Medication",
+    "category": "Opioid Analgesic",
+    "commonSymptoms": [
+      "Hives",
+      "Itching"
+    ],
+    "crossReactivity": ["Other codeine-related opioids"],
+    "prevalence": {
+      "general": "True allergy is rare"
+    },
+    "medicalName": "Hydrocodone allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative pain relievers"
+  },
+  {
+    "id": "opioids-morphine-derivatives-067",
+    "name": "Opioids - Morphine Derivatives (e.g., Hydromorphone)",
+    "type": "Medication",
+    "category": "Opioid Analgesic",
+    "commonSymptoms": [
+      "Hives",
+      "Itching"
+    ],
+    "crossReactivity": ["Other morphine-related opioids"],
+    "prevalence": {
+      "general": "True allergy is rare"
+    },
+    "medicalName": "Hydromorphone allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative pain relievers"
+  },
+  {
+    "id": "opioids-fentanyl-derivatives-068",
+    "name": "Opioids - Fentanyl Derivatives (e.g., Tramadol)",
+    "type": "Medication",
+    "category": "Opioid Analgesic",
+    "commonSymptoms": [
+      "Hives",
+      "Itching"
+    ],
+    "crossReactivity": ["Other fentanyl-related opioids"],
+    "prevalence": {
+      "general": "True allergy is rare"
+    },
+    "medicalName": "Tramadol allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative pain relievers"
+  },
+  {
+    "id": "penicillins-broad-spectrum-069",
+    "name": "Penicillins - Broad Spectrum (e.g., Ampicillin)",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives"
+    ],
+    "crossReactivity": ["Other penicillins"],
+    "prevalence": {
+      "general": "Similar to penicillin allergy"
+    },
+    "medicalName": "Ampicillin allergy",
+    "testingMethods": ["Skin test", "Oral challenge"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "penicillins-penicillinase-resistant-070",
+    "name": "Penicillins - Penicillinase-Resistant (e.g., Dicloxacillin)",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives"
+    ],
+    "crossReactivity": ["Other penicillins"],
+    "prevalence": {
+      "general": "Similar to penicillin allergy"
+    },
+    "medicalName": "Dicloxacillin allergy",
+    "testingMethods": ["Skin test", "Oral challenge"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "macrolides-azithromycin-071",
+    "name": "Macrolides - Azithromycin",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives"
+    ],
+    "crossReactivity": ["Other macrolides (erythromycin, clarithromycin) - less common"],
+    "prevalence": {
+      "general": "Uncommon"
+    },
+    "medicalName": "Azithromycin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "macrolides-clarithromycin-072",
+    "name": "Macrolides - Clarithromycin",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives"
+    ],
+    "crossReactivity": ["Other macrolides (erythromycin, azithromycin) - less common"],
+    "prevalence": {
+      "general": "Uncommon"
+    },
+    "medicalName": "Clarithromycin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "sulfonamides-non-antibiotic-073",
+    "name": "Sulfonamides - Non-Antibiotic (e.g., Furosemide, Thiazide Diuretics)",
+    "type": "Medication",
+    "category": "Diuretic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Photosensitivity"
+    ],
+    "crossReactivity": ["Other non-antibiotic sulfonamides - less clear"],
+    "prevalence": {
+      "general": "Less common than antibiotic sulfa allergy"
+    },
+    "medicalName": "Non-antibiotic sulfonamide allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative diuretics"
+  },
+  {
+    "id": "quinolones-levofloxacin-074",
+    "name": "Quinolones - Levofloxacin",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives"
+    ],
+    "crossReactivity": ["Other fluoroquinolones (ciprofloxacin, ofloxacin) - less common"],
+    "prevalence": {
+      "general": "Uncommon"
+    },
+    "medicalName": "Levofloxacin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "glycopeptides-vancomycin-075",
+    "name": "Glycopeptides - Vancomycin",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Red man syndrome (flushing, rash, itching - often non-allergic)",
+      "True allergic reactions are rare"
+    ],
+    "crossReactivity": ["Other glycopeptides (teicoplanin) - rare"],
+    "prevalence": {
+      "general": "True allergy is rare"
+    },
+    "medicalName": "Vancomycin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance (if true allergy), slower infusion for red man syndrome"
+  },
+  {
+    "id": "aminoglycosides-gentamicin-076",
+    "name": "Aminoglycosides - Gentamicin",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other aminoglycosides (tobramycin, amikacin) - rare"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Gentamicin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "carbapenems-imipenem-077",
+    "name": "Carbapenems - Imipenem",
+    "type": "Medication",
+    "category": "Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Hives"
+    ],
+    "crossReactivity": ["Other carbapenems (meropenem, ertapenem)", "Penicillins (possible)"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Imipenem allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance, alternative antibiotics"
+  },
+  {
+    "id": "glyburide-078",
+    "name": "Glyburide",
+    "type": "Medication",
+    "category": "Antidiabetic",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other sulfonylureas (glipizide, glimepiride)"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Glyburide allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antidiabetic medications"
+  },
+  {
+    "id": "metformin-079",
+    "name": "Metformin",
+    "type": "Medication",
+    "category": "Antidiabetic",
+    "commonSymptoms": [
+      "Skin rash (very rare)"
+    ],
+    "crossReactivity": ["None well-established"],
+    "prevalence": {
+      "general": "Extremely rare"
+    },
+    "medicalName": "Metformin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antidiabetic medications"
+  },
+  {
+    "id": "salicylates-other-than-aspirin-080",
+    "name": "Salicylates (Other than Aspirin) (e.g., Bismuth Subsalicylate)",
+    "type": "Medication",
+    "category": "Various",
+    "commonSymptoms": [
+      "Hives",
+      "Swelling",
+      "Asthma symptoms"
+    ],
+    "crossReactivity": ["Aspirin and other salicylates"],
+    "prevalence": {
+      "general": "Less common than aspirin allergy"
+    },
+    "medicalName": "Salicylate allergy",
+    "testingMethods": ["Oral challenge"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "iodine-containing-topicals-081",
+    "name": "Iodine-Containing Topical Antiseptics (e.g., Povidone-Iodine)",
+    "type": "Medication",
+    "category": "Antiseptic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Itching"
+    ],
+    "crossReactivity": ["Other iodine-containing products (rarely)"],
+    "prevalence": {
+      "general": "Uncommon"
+    },
+    "medicalName": "Iodine allergy (topical)",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antiseptics"
+  },
+  {
+    "id": "mupirocin-082",
+    "name": "Mupirocin",
+    "type": "Medication",
+    "category": "Topical Antibiotic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Itching"
+    ],
+    "crossReactivity": ["None well-established"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Mupirocin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative topical antibiotics"
+  },
+  {
+    "id": "bacitracin-083",
+    "name": "Bacitracin",
+    "type": "Medication",
+    "category": "Topical Antibiotic",
+    "commonSymptoms": [
+      "Contact dermatitis"
+    ],
+    "crossReactivity": ["Neomycin (sometimes)"],
+    "prevalence": {
+      "general": "Relatively common cause of contact dermatitis"
+    },
+    "medicalName": "Bacitracin allergy (contact dermatitis)",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance, alternative topical antibiotics"
+  },
+  {
+    "id": "neomycin-084",
+    "name": "Neomycin",
+    "type": "Medication",
+    "category": "Topical Antibiotic",
+    "commonSymptoms": [
+      "Contact dermatitis"
+    ],
+    "crossReactivity": ["Other aminoglycosides (sometimes), bacitracin (sometimes)"],
+    "prevalence": {
+      "general": "Common cause of contact dermatitis"
+    },
+    "medicalName": "Neomycin allergy (contact dermatitis)",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance, alternative topical antibiotics"
+  },
+  {
+    "id": "polymyxin-b-085",
+    "name": "Polymyxin B",
+    "type": "Medication",
+    "category": "Topical Antibiotic",
+    "commonSymptoms": [
+      "Contact dermatitis"
+    ],
+    "crossReactivity": ["Colistin (rarely)"],
+    "prevalence": {
+      "general": "Less common than neomycin or bacitracin"
+    },
+    "medicalName": "Polymyxin B allergy (contact dermatitis)",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance, alternative topical antibiotics"
+  },
+  {
+    "id": "local-anesthetics-ester-type-086",
+    "name": "Local Anesthetics - Ester Type (e.g., Benzocaine)",
+    "type": "Medication",
+    "category": "Local Anesthetic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Swelling"
+    ],
+    "crossReactivity": ["Other ester-type local anesthetics (procaine, tetracaine)"],
+    "prevalence": {
+      "general": "More common than amide-type allergies"
+    },
+    "medicalName": "Ester-type local anesthetic allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance, use of amide-type local anesthetics"
+  },
+  {
+    "id": "local-anesthetics-amide-type-087",
+    "name": "Local Anesthetics - Amide Type (e.g., Bupivacaine)",
+    "type": "Medication",
+    "category": "Local Anesthetic",
+    "commonSymptoms": [
+      "Skin rash",
+      "Swelling (rare)"
+    ],
+    "crossReactivity": ["Other amide-type local anesthetics (lidocaine, prilocaine) - rare"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "medicalName": "Amide-type local anesthetic allergy",
+    "testingMethods": ["Skin test"],
+    "treatment": "Avoidance, use of ester-type local anesthetics"
+  },
+  {
+    "id": "proton-pump-inhibitors-esomeprazole-088",
+    "name": "Proton Pump Inhibitors - Esomeprazole",
+    "type": "Medication",
+    "category": "Gastrointestinal",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other PPIs (variable)"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Esomeprazole allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative PPIs"
+  },
+  {
+    "id": "proton-pump-inhibitors-lansoprazole-089",
+    "name": "Proton Pump Inhibitors - Lansoprazole",
+    "type": "Medication",
+    "category": "Gastrointestinal",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other PPIs (variable)"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Lansoprazole allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative PPIs"
+  },
+  {
+    "id": "proton-pump-inhibitors-rabeprazole-090",
+    "name": "Proton Pump Inhibitors - Rabeprazole",
+    "type": "Medication",
+    "category": "Gastrointestinal",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other PPIs (variable)"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Rabeprazole allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative PPIs"
+  },
+  {
+    "id": "proton-pump-inhibitors-dexlansoprazole-091",
+    "name": "Proton Pump Inhibitors - Dexlansoprazole",
+    "type": "Medication",
+    "category": "Gastrointestinal",
+    "commonSymptoms": [
+      "Skin rash (very rare)"
+    ],
+    "crossReactivity": ["Other PPIs (variable)"],
+    "prevalence": {
+      "general": "Extremely rare"
+    },
+    "medicalName": "Dexlansoprazole allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative PPIs"
+  },
+  {
+    "id": "H2-receptor-antagonists-092",
+    "name": "H2-Receptor Antagonists (e.g., Ranitidine, Famotidine)",
+    "type": "Medication",
+    "category": "Gastrointestinal",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other H2-receptor antagonists"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "H2-receptor antagonist allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "metoclopramide-093",
+    "name": "Metoclopramide",
+    "type": "Medication",
+    "category": "Gastrointestinal",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["None well-established"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Metoclopramide allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "ondansetron-094",
+    "name": "Ondansetron",
+    "type": "Medication",
+    "category": "Antiemetic",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other serotonin 5-HT3 receptor antagonists (variable)"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Ondansetron allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antiemetics"
+  },
+  {
+    "id": "promethazine-095",
+    "name": "Promethazine",
+    "type": "Medication",
+    "category": "Antiemetic/Antihistamine",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other phenothiazines (variable)"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Promethazine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "dextromethorphan-096",
+    "name": "Dextromethorphan",
+    "type": "Medication",
+    "category": "Cough Suppressant",
+    "commonSymptoms": [
+      "Skin rash (very rare)"
+    ],
+    "crossReactivity": ["None well-established"],
+    "prevalence": {
+      "general": "Extremely rare"
+    },
+    "medicalName": "Dextromethorphan allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative cough suppressants"
+  },
+  {
+    "id": "guaifenesin-097",
+    "name": "Guaifenesin",
+    "type": "Medication",
+    "category": "Expectorant",
+    "commonSymptoms": [
+      "Skin rash (very rare)"
+    ],
+    "crossReactivity": ["None well-established"],
+    "prevalence": {
+      "general": "Extremely rare"
+    },
+    "medicalName": "Guaifenesin allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative expectorants"
+  },
+  {
+    "id": "pseudoephedrine-098",
+    "name": "Pseudoephedrine",
+    "type": "Medication",
+    "category": "Decongestant",
+    "commonSymptoms": [
+      "Skin rash (very rare)"
+    ],
+    "crossReactivity": ["Phenylephrine (rarely)"],
+    "prevalence": {
+      "general": "Extremely rare"
+    },
+    "medicalName": "Pseudoephedrine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative decongestants"
+  },
+  {
+    "id": "phenylephrine-099",
+    "name": "Phenylephrine",
+    "type": "Medication",
+    "category": "Decongestant",
+    "commonSymptoms": [
+      "Skin rash (very rare)"
+    ],
+    "crossReactivity": ["Pseudoephedrine (rarely)"],
+    "prevalence": {
+      "general": "Extremely rare"
+    },
+    "medicalName": "Phenylephrine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative decongestants"
+  },
+  {
+    "id": "diphenhydramine-100",
+    "name": "Diphenhydramine",
+    "type": "Medication",
+    "category": "Antihistamine",
+    "commonSymptoms": [
+      "Skin rash (rare)"
+    ],
+    "crossReactivity": ["Other first-generation antihistamines (variable)"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "medicalName": "Diphenhydramine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antihistamines"
+  },
+  {
+    "id": "cetirizine-101",
+    "name": "Cetirizine",
+    "type": "Medication",
+    "category": "Antihistamine",
+    "commonSymptoms": ["Skin rash (very rare)"],
+    "crossReactivity": ["Other second-generation antihistamines (variable)"],
+    "prevalence": {"general": "Extremely rare"},
+    "medicalName": "Cetirizine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antihistamines"
+  },
+  {
+    "id": "loratadine-102",
+    "name": "Loratadine",
+    "type": "Medication",
+    "category": "Antihistamine",
+    "commonSymptoms": ["Skin rash (very rare)"],
+    "crossReactivity": ["Other second-generation antihistamines (variable)"],
+    "prevalence": {"general": "Extremely rare"},
+    "medicalName": "Loratadine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antihistamines"
+  },
+  {
+    "id": "fexofenadine-103",
+    "name": "Fexofenadine",
+    "type": "Medication",
+    "category": "Antihistamine",
+    "commonSymptoms": ["Skin rash (very rare)"],
+    "crossReactivity": ["Other second-generation antihistamines (variable)"],
+    "prevalence": {"general": "Extremely rare"},
+    "medicalName": "Fexofenadine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative antihistamines"
+  },
+  {
+    "id": "ranitidine-104",
+    "name": "Ranitidine",
+    "type": "Medication",
+    "category": "H2 Receptor Antagonist",
+    "commonSymptoms": ["Skin rash (very rare)"],
+    "crossReactivity": ["Other H2 receptor antagonists (famotidine, cimetidine)"],
+    "prevalence": {"general": "Extremely rare"},
+    "medicalName": "Ranitidine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "famotidine-105",
+    "name": "Famotidine",
+    "type": "Medication",
+    "category": "H2 Receptor Antagonist",
+    "commonSymptoms": ["Skin rash (very rare)"],
+    "crossReactivity": ["Other H2 receptor antagonists (ranitidine, cimetidine)"],
+    "prevalence": {"general": "Extremely rare"},
+    "medicalName": "Famotidine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "cimetidine-106",
+    "name": "Cimetidine",
+    "type": "Medication",
+    "category": "H2 Receptor Antagonist",
+    "commonSymptoms": ["Skin rash (very rare)"],
+    "crossReactivity": ["Other H2 receptor antagonists (ranitidine, famotidine)"],
+    "prevalence": {"general": "Extremely rare"},
+    "medicalName": "Cimetidine allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "metoprolol-107",
+    "name": "Metoprolol",
+    "type": "Medication",
+    "category": "Beta-Blocker",
+    "commonSymptoms": ["Skin rash (very rare)"],
+    "crossReactivity": ["Other beta-blockers (atenolol, propranolol)"],
+    "prevalence": {"general": "Extremely rare"},
+    "medicalName": "Metoprolol allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "atenolol-108",
+    "name": "Atenolol",
+    "type": "Medication",
+    "category": "Beta-Blocker",
+    "commonSymptoms": ["Skin rash (very rare)"],
+    "crossReactivity": ["Other beta-blockers (metoprolol, propranolol)"],
+    "prevalence": {"general": "Extremely rare"},
+    "medicalName": "Atenolol allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "propranolol-109",
+    "name": "Propranolol",
+    "type": "Medication",
+    "category": "Beta-Blocker",
+    "commonSymptoms": ["Skin rash (very rare)"],
+    "crossReactivity": ["Other beta-blockers (metoprolol, atenolol)"],
+    "prevalence": {"general": "Extremely rare"},
+    "medicalName": "Propranolol allergy",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "lisinopril-110",
+    "name": "Lisinopril",
+    "type": "Medication",
+    "category": "ACE Inhibitor",
+    "commonSymptoms": ["Angioedema (rare)", "Skin rash (very rare)"],
+    "crossReactivity": ["Other ACE inhibitors (enalapril, captopril)"],
+    "prevalence": {"angioedema": "Slightly higher than general population"},
+    "medicalName": "Lisinopril allergy/angioedema",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "enalapril-111",
+    "name": "Enalapril",
+    "type": "Medication",
+    "category": "ACE Inhibitor",
+    "commonSymptoms": ["Angioedema (rare)", "Skin rash (very rare)"],
+    "crossReactivity": ["Other ACE inhibitors (lisinopril, captopril)"],
+    "prevalence": {"angioedema": "Slightly higher than general population"},
+    "medicalName": "Enalapril allergy/angioedema",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "losartan-112",
+    "name": "Losartan",
+    "type": "Medication",
+    "category": "ARB",
+    "commonSymptoms": ["Angioedema (very rare)", "Skin rash (very rare)"],
+    "crossReactivity": ["Other ARBs (valsartan, olmesartan)"],
+    "prevalence": {"angioedema": "Lower than ACE inhibitors"},
+    "medicalName": "Losartan allergy/angioedema",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  },
+  {
+    "id": "valsartan-113",
+    "name": "Valsartan",
+    "type": "Medication",
+    "category": "ARB",
+    "commonSymptoms": ["Angioedema (very rare)", "Skin rash (very rare)"],
+    "crossReactivity": ["Other ARBs (losartan, olmesartan)"],
+    "prevalence": {"angioedema": "Lower than ACE inhibitors"},
+    "medicalName": "Valsartan allergy/angioedema",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance, alternative medications"
+  }
+]

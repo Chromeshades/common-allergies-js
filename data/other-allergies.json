@@ -1,0 +1,695 @@
+[
+  {
+    "id": "sunlight-024",
+    "name": "Sunlight",
+    "type": "Other",
+    "category": "Physical",
+    "commonSymptoms": [
+      "Itchy rash or hives on sun-exposed skin",
+      "Blisters or bumps",
+      "Scaly or leathery patches",
+      "Headache, nausea, or fever in severe cases"
+    ],
+    "crossReactivity": ["Sometimes other forms of UV radiation"],
+    "prevalence": {
+      "general": "Varies depending on the specific type of photosensitivity"
+    },
+    "commonSources": ["Exposure to ultraviolet (UV) radiation from the sun"],
+    "medicalName": "Photosensitivity or Solar urticaria",
+    "testingMethods": ["Phototesting"],
+    "treatment": "Avoidance of sun exposure, protective clothing, sunscreen, medications"
+  },
+  {
+    "id": "cold-025",
+    "name": "Cold",
+    "type": "Other",
+    "category": "Physical",
+    "commonSymptoms": [
+      "Hives or itchy welts on skin exposed to cold",
+      "Swelling of hands and feet upon warming",
+      "Severe, body-wide reaction (anaphylaxis) in rare cases"
+    ],
+    "crossReactivity": ["Sometimes other physical stimuli"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "commonSources": ["Exposure to cold air, water, or objects"],
+    "medicalName": "Cold urticaria",
+    "testingMethods": ["Ice cube test"],
+    "treatment": "Avoidance of cold exposure, antihistamines, epinephrine for severe reactions"
+  },
+  {
+    "id": "water-026",
+    "name": "Water",
+    "type": "Other",
+    "category": "Physical",
+    "commonSymptoms": [
+      "Itchy hives appear within minutes of skin contact with water, regardless of temperature"
+    ],
+    "crossReactivity": ["Own tears or sweat (in some cases)"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "commonSources": ["Contact with water"],
+    "medicalName": "Aquagenic urticaria",
+    "testingMethods": ["Water challenge test"],
+    "treatment": "Antihistamines, barrier creams, UV light therapy"
+  },
+  {
+    "id": "heat-114",
+    "name": "Heat",
+    "type": "Other",
+    "category": "Physical",
+    "commonSymptoms": [
+      "Small, itchy bumps or hives, usually on the neck, chest, and back",
+      "Redness of the skin",
+      "Prickly or stinging sensation"
+    ],
+    "crossReactivity": ["Exercise, sweating"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": ["Exposure to heat, sweating, hot showers or baths, exercise"],
+    "medicalName": "Heat urticaria or Cholinergic urticaria",
+    "testingMethods": ["Exercise challenge test", "Methacholine skin test"],
+    "treatment": "Avoidance of heat and sweating, antihistamines"
+  },
+  {
+    "id": "pressure-115",
+    "name": "Pressure",
+    "type": "Other",
+    "category": "Physical",
+    "commonSymptoms": [
+      "Swollen, red welts on skin that has been under pressure",
+      "Deep swelling that can be painful and last for hours"
+    ],
+    "crossReactivity": ["Tight clothing, prolonged sitting or standing"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": ["Tight clothing, belts, bra straps, prolonged sitting or standing"],
+    "medicalName": "Pressure urticaria",
+    "testingMethods": ["Applying pressure to the skin with weights"],
+    "treatment": "Avoidance of prolonged pressure, antihistamines"
+  },
+  {
+    "id": "exercise-116",
+    "name": "Exercise",
+    "type": "Other",
+    "category": "Physical",
+    "commonSymptoms": [
+      "Hives, itching, flushing",
+      "Dizziness, lightheadedness",
+      "Difficulty breathing",
+      "Stomach cramps, nausea, diarrhea",
+      "Anaphylaxis (severe cases)"
+    ],
+    "crossReactivity": ["Sometimes specific foods consumed before exercise"],
+    "prevalence": {
+      "general": "Rare"
+    },
+    "commonSources": ["Physical activity"],
+    "medicalName": "Exercise-induced anaphylaxis",
+    "testingMethods": ["Exercise challenge test"],
+    "treatment": "Avoidance of triggering exercise, carrying an epinephrine auto-injector"
+  },
+  {
+    "id": "vibration-117",
+    "name": "Vibration",
+    "type": "Other",
+    "category": "Physical",
+    "commonSymptoms": [
+      "Hives, itching, and swelling shortly after exposure to vibration"
+    ],
+    "crossReactivity": ["None well-established"],
+    "prevalence": {
+      "general": "Very rare"
+    },
+    "commonSources": ["Vibrating machinery, tools, or vehicles"],
+    "medicalName": "Vibratory urticaria",
+    "testingMethods": ["Applying a vibrating device to the skin"],
+    "treatment": "Avoidance of vibration, antihistamines"
+  },
+  {
+    "id": "dermatographia-118",
+    "name": "Dermatographia",
+    "type": "Other",
+    "category": "Physical",
+    "commonSymptoms": [
+      "Raised, red lines or welts appear on the skin where it has been scratched or rubbed"
+    ],
+    "crossReactivity": ["None well-established"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": ["Scratching, rubbing, pressure on the skin"],
+    "medicalName": "Dermatographism or Skin writing",
+    "testingMethods": ["Stroking the skin with a blunt object"],
+    "treatment": "Usually no treatment needed, antihistamines for itching"
+  },
+  {
+    "id": "nickel-119",
+    "name": "Nickel",
+    "type": "Other",
+    "category": "Metal",
+    "commonSymptoms": [
+      "Itchy rash at the site of contact",
+      "Redness, swelling, blistering"
+    ],
+    "crossReactivity": ["Cobalt, palladium"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": ["Jewelry, belt buckles, snaps, zippers, keys, coins, mobile phones, eyeglass frames"],
+    "medicalName": "Nickel contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of nickel-containing items, topical corticosteroids"
+  },
+  {
+    "id": "gold-120",
+    "name": "Gold",
+    "type": "Other",
+    "category": "Metal",
+    "commonSymptoms": [
+      "Itchy rash at the site of contact",
+      "Redness, swelling"
+    ],
+    "crossReactivity": ["Other metals (less common)"],
+    "prevalence": {
+      "general": "Less common than nickel allergy"
+    },
+    "commonSources": ["Jewelry, dental fillings"],
+    "medicalName": "Gold contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of gold-containing items, topical corticosteroids"
+  },
+  {
+    "id": "cobalt-121",
+    "name": "Cobalt",
+    "type": "Other",
+    "category": "Metal",
+    "commonSymptoms": [
+      "Itchy rash at the site of contact",
+      "Redness, swelling, blistering"
+    ],
+    "crossReactivity": ["Nickel, chromium"],
+    "prevalence": {
+      "general": "Relatively common, often co-occurs with nickel allergy"
+    },
+    "commonSources": ["Jewelry, metal tools, pigments in paints and ceramics, vitamin B12"],
+    "medicalName": "Cobalt contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of cobalt-containing items, topical corticosteroids"
+  },
+  {
+    "id": "chromium-122",
+    "name": "Chromium",
+    "type": "Other",
+    "category": "Metal",
+    "commonSymptoms": [
+      "Itchy rash at the site of contact",
+      "Redness, swelling, blistering"
+    ],
+    "crossReactivity": ["Cobalt (sometimes)"],
+    "prevalence": {
+      "general": "Relatively common"
+    },
+    "commonSources": ["Leather products (tanning process), cement, metal alloys, paints"],
+    "medicalName": "Chromium contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of chromium-containing items, topical corticosteroids"
+  },
+  {
+    "id": "fragrance-123",
+    "name": "Fragrance",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Itchy rash, hives",
+      "Sneezing, runny nose",
+      "Watery eyes",
+      "Headache"
+    ],
+    "crossReactivity": ["Various scented products"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": ["Perfumes, colognes, scented lotions, soaps, detergents, air fresheners"],
+    "medicalName": "Fragrance allergy or contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of fragranced products, using fragrance-free alternatives"
+  },
+  {
+    "id": "latex-124",
+    "name": "Latex",
+    "type": "Other",
+    "category": "Material",
+    "commonSymptoms": [
+      "Hives, itching, skin rash",
+      "Runny nose, sneezing",
+      "Watery eyes",
+      "Difficulty breathing, wheezing",
+      "Anaphylaxis (severe cases)"
+    ],
+    "crossReactivity": ["Certain fruits (avocado, banana, kiwi, chestnut)"],
+    "prevalence": {
+      "healthcare workers, individuals with spina bifida": "Higher prevalence"
+    },
+    "commonSources": ["Gloves, balloons, condoms, elastic bands, rubber products"],
+    "medicalName": "Latex allergy",
+    "testingMethods": ["Skin test", "Blood test"],
+    "treatment": "Avoidance of latex products, carrying an epinephrine auto-injector"
+  },
+  {
+    "id": "animal-dander-cat-125",
+    "name": "Cat Dander",
+    "type": "Other",
+    "category": "Animal Allergen",
+    "commonSymptoms": [
+      "Sneezing, runny nose",
+      "Itchy, watery eyes",
+      "Coughing, wheezing",
+      "Skin rash or hives"
+    ],
+    "crossReactivity": ["Other animal danders (sometimes)"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": ["Cats"],
+    "medicalName": "Cat allergy",
+    "testingMethods": ["Skin test", "Blood test"],
+    "treatment": "Avoidance, antihistamines, nasal corticosteroids, immunotherapy"
+  },
+  {
+    "id": "animal-dander-dog-126",
+    "name": "Dog Dander",
+    "type": "Other",
+    "category": "Animal Allergen",
+    "commonSymptoms": [
+      "Sneezing, runny nose",
+      "Itchy, watery eyes",
+      "Coughing, wheezing",
+      "Skin rash or hives"
+    ],
+    "crossReactivity": ["Other animal danders (sometimes)"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": ["Dogs"],
+    "medicalName": "Dog allergy",
+    "testingMethods": ["Skin test", "Blood test"],
+    "treatment": "Avoidance, antihistamines, nasal corticosteroids, immunotherapy"
+  },
+  {
+    "id": "mold-spores-127",
+    "name": "Mold Spores",
+    "type": "Other",
+    "category": "Environmental Allergen",
+    "commonSymptoms": [
+      "Sneezing, runny or stuffy nose",
+      "Itchy, watery eyes",
+      "Coughing, wheezing",
+      "Skin rash"
+    ],
+    "crossReactivity": ["Different types of molds"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": ["Damp areas, basements, bathrooms, outdoors in decaying vegetation"],
+    "medicalName": "Mold allergy",
+    "testingMethods": ["Skin test", "Blood test"],
+    "treatment": "Avoidance, antihistamines, nasal corticosteroids, immunotherapy"
+  },
+  {
+    "id": "tree-pollen-128",
+    "name": "Tree Pollen",
+    "type": "Other",
+    "category": "Environmental Allergen",
+    "commonSymptoms": [
+      "Sneezing, runny or stuffy nose",
+      "Itchy, watery eyes",
+      "Sore throat due to postnasal drip"
+    ],
+    "crossReactivity": ["Grass and weed pollen (sometimes)", "Certain fruits and vegetables (oral allergy syndrome)"],
+    "prevalence": {
+      "general": "Common in spring"
+    },
+    "commonSources": ["Various tree species (e.g., oak, birch, maple, pine)"],
+    "medicalName": "Seasonal allergic rhinitis (tree pollen)",
+    "testingMethods": ["Skin test", "Blood test"],
+    "treatment": "Avoidance, antihistamines, nasal corticosteroids, immunotherapy"
+  },
+  {
+    "id": "grass-pollen-129",
+    "name": "Grass Pollen",
+    "type": "Other",
+    "category": "Environmental Allergen",
+    "commonSymptoms": [
+      "Sneezing, runny or stuffy nose",
+      "Itchy, watery eyes",
+      "Coughing, wheezing"
+    ],
+    "crossReactivity": ["Tree and weed pollen (sometimes)", "Certain fruits and vegetables (oral allergy syndrome)"],
+    "prevalence": {
+      "general": "Common in late spring and summer"
+    },
+    "commonSources": ["Various grass species (e.g., ryegrass, timothy grass, Bermuda grass)"],
+    "medicalName": "Seasonal allergic rhinitis (grass pollen)",
+    "testingMethods": ["Skin test", "Blood test"],
+    "treatment": "Avoidance, antihistamines, nasal corticosteroids, immunotherapy"
+  },
+  {
+    "id": "weed-pollen-130",
+    "name": "Weed Pollen",
+    "type": "Other",
+    "category": "Environmental Allergen",
+    "commonSymptoms": [
+      "Sneezing, runny or stuffy nose",
+      "Itchy, watery eyes",
+      "Sore throat due to postnasal drip"
+    ],
+    "crossReactivity": ["Tree and grass pollen (sometimes)", "Certain fruits and vegetables (oral allergy syndrome)"],
+    "prevalence": {
+      "general": "Common in late summer and fall"
+    },
+    "commonSources": ["Various weed species (e.g., ragweed, pollen, sagebrush)"],
+    "medicalName": "Seasonal allergic rhinitis (weed pollen)",
+    "testingMethods": ["Skin test", "Blood test"],
+    "treatment": "Avoidance, antihistamines, nasal corticosteroids, immunotherapy"
+  },
+  {
+    "id": "dust-131",
+    "name": "Dust (general)",
+    "type": "Other",
+    "category": "Environmental Allergen",
+    "commonSymptoms": [
+      "Sneezing, runny or stuffy nose",
+      "Itchy, watery eyes",
+      "Coughing, wheezing"
+    ],
+    "crossReactivity": ["Often related to dust mites, pet dander, and mold"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": ["Household dust containing dust mites, pet dander, mold spores, etc."],
+    "medicalName": "Perennial allergic rhinitis",
+    "testingMethods": ["Allergy testing to specific components of dust"],
+    "treatment": "Avoidance, antihistamines, nasal corticosteroids"
+  },
+  {
+    "id": "smoke-132",
+    "name": "Smoke (Irritant, not always allergic, but can trigger reactions)",
+    "type": "Other",
+    "category": "Irritant",
+    "commonSymptoms": [
+      "Coughing, wheezing",
+      "Shortness of breath",
+      "Eye irritation",
+      "Sore throat"
+    ],
+    "crossReactivity": ["Other airborne irritants"],
+    "prevalence": {
+      "general": "Common"
+    },
+    "commonSources": ["Cigarette smoke, wood smoke, pollution"],
+    "medicalName": "Irritant-induced respiratory symptoms",
+    "testingMethods": ["Pulmonary function tests"],
+    "treatment": "Avoidance of smoke exposure, inhalers (if asthmatic)"
+  },
+  {
+    "id": "perfume-133",
+    "name": "Perfume (see Fragrance)",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Itchy rash, hives",
+      "Sneezing, runny nose",
+      "Watery eyes",
+      "Headache"
+    ],
+    "crossReactivity": ["Other fragranced products"],
+    "prevalence": {"general": "Common"},
+    "commonSources": ["Perfumes, colognes"],
+    "medicalName": "Fragrance allergy or contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of perfumes, using fragrance-free alternatives"
+  },
+  {
+    "id": "cosmetics-134",
+    "name": "Cosmetics (Specific Ingredients)",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin rash, itching, redness, swelling"
+    ],
+    "crossReactivity": ["Depends on the specific ingredient"],
+    "prevalence": {"general": "Common"},
+    "commonSources": ["Makeup, lotions, shampoos, conditioners"],
+    "medicalName": "Cosmetic contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of specific ingredients, using hypoallergenic products"
+  },
+  {
+    "id": "cleaning-products-135",
+    "name": "Cleaning Products (Specific Chemicals)",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin rash, burning sensation",
+      "Respiratory irritation, coughing"
+    ],
+    "crossReactivity": ["Depends on the specific chemical"],
+    "prevalence": {"general": "Common irritant reactions, true allergy less common"},
+    "commonSources": ["Soaps, detergents, bleach, disinfectants"],
+    "medicalName": "Irritant or allergic contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of specific chemicals, using protective measures"
+  },
+  {
+    "id": "dyes-hair-dye-136",
+    "name": "Hair Dye",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Scalp itching, redness, swelling",
+      "Rash on the neck, face, or ears"
+    ],
+    "crossReactivity": ["Other dyes, paraphenylenediamine (PPD) is a common allergen"],
+    "prevalence": {"general": "Relatively common"},
+    "commonSources": ["Permanent and semi-permanent hair dyes"],
+    "medicalName": "Hair dye allergy or contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of hair dyes containing the allergen, using alternative products"
+  },
+  {
+    "id": "preservatives-formaldehyde-137",
+    "name": "Formaldehyde",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin rash, itching, burning sensation"
+    ],
+    "crossReactivity": ["Other formaldehyde-releasing preservatives"],
+    "prevalence": {"general": "Relatively common contact allergen"},
+    "commonSources": ["Cosmetics, lotions, cleaning products, fabrics, glues"],
+    "medicalName": "Formaldehyde contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of formaldehyde-containing products"
+  },
+  {
+    "id": "preservatives-parabens-138",
+    "name": "Parabens",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin rash, itching, redness"
+    ],
+    "crossReactivity": ["Other parabens"],
+    "prevalence": {"general": "Less common than formaldehyde allergy"},
+    "commonSources": ["Cosmetics, lotions, shampoos, conditioners, some medications"],
+    "medicalName": "Paraben contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of paraben-containing products"
+  },
+  {
+    "id": "acrylics-139",
+    "name": "Acrylics",
+    "type": "Other",
+    "category": "Material",
+    "commonSymptoms": [
+      "Skin rash, itching, swelling"
+    ],
+    "crossReactivity": ["Methacrylates"],
+    "prevalence": {"general": "Can occur from nail products, dental materials, and some fabrics"},
+    "commonSources": ["Artificial nails, nail polish, dental prosthetics, acrylic fabrics"],
+    "medicalName": "Acrylic contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of acrylic-containing products"
+  },
+  {
+    "id": "wool-140",
+    "name": "Wool",
+    "type": "Other",
+    "category": "Material",
+    "commonSymptoms": [
+      "Itchy skin, rash"
+    ],
+    "crossReactivity": ["Lanolin (wool wax)"],
+    "prevalence": {"general": "Irritant contact dermatitis is more common than true allergy"},
+    "commonSources": ["Wool clothing, blankets, carpets"],
+    "medicalName": "Wool contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of wool products"
+  },
+  {
+    "id": "lanolin-141",
+    "name": "Lanolin",
+    "type": "Other",
+    "category": "Animal Product",
+    "commonSymptoms": [
+      "Skin rash, itching"
+    ],
+    "crossReactivity": ["Wool"],
+    "prevalence": {"general": "Relatively common contact allergen"},
+    "commonSources": ["Moisturizers, cosmetics, nipple creams"],
+    "medicalName": "Lanolin contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of lanolin-containing products"
+  },
+  {
+    "id": "cement-142",
+    "name": "Cement (Chromate)",
+    "type": "Other",
+    "category": "Material",
+    "commonSymptoms": [
+      "Skin rash, itching, blistering on contact"
+    ],
+    "crossReactivity": ["Other sources of chromate"],
+    "prevalence": {"general": "Common in individuals with occupational exposure"},
+    "commonSources": ["Wet cement, mortar, grout"],
+    "medicalName": "Cement contact dermatitis (chromate allergy)",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of contact with wet cement, protective gear"
+  },
+  {
+    "id": "glues-adhesives-143",
+    "name": "Glues and Adhesives (Specific Chemicals)",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin rash, itching, swelling"
+    ],
+    "crossReactivity": ["Depends on the specific chemical in the adhesive"],
+    "prevalence": {"general": "Can occur with various types of adhesives"},
+    "commonSources": ["Household glues, industrial adhesives, adhesive bandages"],
+    "medicalName": "Adhesive contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of specific adhesives"
+  },
+  {
+    "id": "rubber-accelerators-144",
+    "name": "Rubber Accelerators (Chemicals in Rubber)",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin rash, itching, blistering on contact"
+    ],
+    "crossReactivity": ["Other rubber chemicals"],
+    "prevalence": {"general": "Common cause of contact dermatitis"},
+    "commonSources": ["Rubber gloves, tires, elastic, footwear"],
+    "medicalName": "Rubber chemical contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of rubber products containing the specific chemical"
+  },
+  {
+    "id": "epoxy-resins-145",
+    "name": "Epoxy Resins",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin rash, itching, swelling"
+    ],
+    "crossReactivity": ["None well-established"],
+    "prevalence": {"general": "Common in occupational settings"},
+    "commonSources": ["Adhesives, paints, coatings"],
+    "medicalName": "Epoxy resin contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of epoxy resins, protective gear"
+  },
+  {
+    "id": "formaldehyde-releasers-146",
+    "name": "Formaldehyde Releasers (e.g., Diazolidinyl Urea)",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin rash, itching, burning sensation"
+    ],
+    "crossReactivity": ["Formaldehyde"],
+    "prevalence": {"general": "Common contact allergen"},
+    "commonSources": ["Cosmetics, lotions, shampoos"],
+    "medicalName": "Formaldehyde releaser contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of products containing formaldehyde releasers"
+  },
+  {
+    "id": "isothiazolinones-147",
+    "name": "Isothiazolinones (Preservatives)",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin rash, itching, burning sensation"
+    ],
+    "crossReactivity": ["Other isothiazolinones"],
+    "prevalence": {"general": "Increasingly common contact allergen"},
+    "commonSources": ["Paints, adhesives, cleaning products, cosmetics"],
+    "medicalName": "Isothiazolinone contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of products containing isothiazolinones"
+  },
+  {
+    "id": "propylene-glycol-148",
+    "name": "Propylene Glycol",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin rash, itching"
+    ],
+    "crossReactivity": ["Other glycols (rarely)"],
+    "prevalence": {"general": "Relatively common irritant, true allergy less common"},
+    "commonSources": ["Cosmetics, lotions, medications, processed foods"],
+    "medicalName": "Propylene glycol contact dermatitis",
+    "testingMethods": ["Patch test"],
+    "treatment": "Avoidance of propylene glycol-containing products"
+  },
+  {
+    "id": "spermicides-nonoxynol-9-149",
+    "name": "Nonoxynol-9",
+    "type": "Other",
+    "category": "Chemical",
+    "commonSymptoms": [
+      "Skin irritation, itching, burning sensation"
+    ],
+    "crossReactivity": ["Other spermicides (rarely)"],
+    "prevalence": {"general": "Common cause of irritant contact dermatitis"},
+    "commonSources": ["Contraceptive gels, foams, and films"],
+    "medicalName": "Nonoxynol-9 contact dermatitis",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Avoidance of products containing nonoxynol-9"
+  },
+  {
+    "id": "poison-ivy-150",
+    "name": "Poison Ivy, Oak, and Sumac",
+    "type": "Other",
+    "category": "Plant",
+    "commonSymptoms": [
+      "Itchy rash with blisters",
+      "Swelling"
+    ],
+    "crossReactivity": ["Mangoes, cashews, pistachios (contain similar urushiol)"],
+    "prevalence": {"general": "Very common"},
+    "commonSources": ["Poison ivy, poison oak, poison sumac plants"],
+    "medicalName": "Urushiol-induced contact dermatitis",
+    "testingMethods": ["Clinical history"],
+    "treatment": "Washing the affected area, topical corticosteroids, oral corticosteroids for severe cases"
+  }
+]
